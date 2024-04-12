@@ -55,7 +55,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1120px;
+  max-width: 90%;
   margin-inline: 1.5rem;
 }
 
@@ -80,11 +80,18 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
-.nav__logo img {
-  height: 4rem;
+/* .nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.3s;
 }
-.naac {
+.nav__logo i {
+  font-size: 1.25rem;
+} */
+.nav__logo img {
   height: 4rem;
 }
 
@@ -107,7 +114,7 @@ a {
 .nav__toggle-close {
   opacity: 0;
 }
-@media screen and (max-width: 1118px) {
+@media screen and (max-width: 1500px) {
   .nav__menu {
     background-color: var(--body-color);
     position: absolute;
@@ -121,14 +128,11 @@ a {
     opacity: 0;
     transition: top 0.4s, opacity 0.3s;
   }
-  .nav__menu::-webkit-scrollbar {
-    width: 0.5rem;
-  }
   .nav__logo img {
     height: 3rem;
   }
-  .naac {
-    opacity: 0;
+  .nav__menu::-webkit-scrollbar {
+    width: 0.5rem;
   }
   .nav__menu::-webkit-scrollbar-thumb {
     background-color: hsl(220, 12%, 70%);
@@ -233,7 +237,7 @@ a {
   }
 }
 /* For large devices */
-@media screen and (min-width: 1118px) {
+@media screen and (min-width: 1500px) {
   /* Nav */
   .nav {
     height: calc(var(--header-height) + 2rem);
