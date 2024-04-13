@@ -114,7 +114,7 @@ a {
 .nav__toggle-close {
   opacity: 0;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1240px) {
   .nav__menu {
     background-color: var(--body-color);
     position: absolute;
@@ -237,7 +237,7 @@ a {
   }
 }
 /* For large devices */
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1240px) {
   /* Nav */
   .nav {
     height: calc(var(--header-height) + 2rem);
