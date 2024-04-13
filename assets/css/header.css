@@ -279,7 +279,7 @@ a {
     transition: top 0.4s, opacity 0.3s;
   }
   .dropdown__content {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(5, max-content);
     column-gap: 6rem;
     max-width: 1120px;
     margin-inline: auto;
@@ -287,7 +287,7 @@ a {
   .dropdown__group {
     padding: 4rem 0;
     align-content: baseline;
-    row-gap: 1.25rem;
+    row-gap: 1rem;
   }
   .dropdown__group:first-child,
   .dropdown__group:last-child {
