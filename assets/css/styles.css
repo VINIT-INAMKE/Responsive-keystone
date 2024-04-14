@@ -11,6 +11,14 @@
   --title-color: hsl(220, 48%, 28%);
   --text-color: hsl(220, 12%, 45%);
   --body-color: hsl(220, 100%, 99%);
+
+  --first-color-light: hsl(220, 68%, 97%);
+  --first-color-alt: #8fd7ed;
+  --second-color: hsl(195, 75%, 52%);
+  --dark-color: hsl(220, 48%, 28%);
+  --white-color: hsl(220, 100%, 99%);
+
+  --container-color: hsl(212, 42%, 20%);
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
@@ -25,6 +33,21 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+
+  --card-first-color: hsl(38, 92%, 58%);
+  --card-first-color-light: hsl(38, 100%, 78%);
+  --card-first-color-alt: hsl(32, 75%, 50%);
+  --card-second-color: hsl(195, 75%, 52%);
+  --card-dark-color: hsl(212, 40%, 12%);
+  --card-white-color: hsl(212, 4%, 95%);
+  --card-body-color: hsl(212, 42%, 15%);
+  --card-container-color: hsl(212, 42%, 20%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --card-body-font: "Bai Jamjuree", sans-serif;
+  --card-h2-font-size: 1.25rem;
+  --card-normal-font-size: 1rem;
 }
 @media screen and (min-width: 1024px) {
   :root {
@@ -101,9 +124,9 @@ a {
 
 .profile {
   background: var(--first-color-lighten);
-  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.49);
-  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.49);
-  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 30px 10px;
   border-radius: 10px;
 }
@@ -311,7 +334,9 @@ a {
   min-width: 400px;
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.651);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .content-table thead tr {
@@ -335,14 +360,6 @@ a {
 .content-table tbody tr {
   border-bottom: 1px solid #dddddd;
   border-left: 1px solid #dddddd;
-}
-
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-.content-table tbody tr:last-of-type {
-  border-bottom: 2px solid var(--text-color);
 }
 
 .content-table tbody tr.active-row {
@@ -428,9 +445,9 @@ a {
 
 .results-profile {
   background: var(--first-color-lighten);
-  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.49);
-  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.49);
-  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 30px 10px;
   border-radius: 10px;
 }
@@ -645,5 +662,145 @@ a {
     /* background-image: none; */
     width: 100%;
     height: 50vh;
+  }
+}
+/*=============== Members CARD ===============*/
+.memtext {
+  text-align: center;
+}
+.memcard__image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.mem-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin-top: 60px;
+
+  margin-bottom: 30px;
+}
+.memcard__container {
+  padding-block: 5rem;
+}
+
+.memcard__content {
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.memcard__article {
+  width: 390px;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.memcard__image {
+  position: relative;
+  background-color: var(--card-first-color-light);
+  padding-top: 1.5rem;
+  margin-bottom: -0.75rem;
+}
+.memcard__data {
+  background-color: var(--card-container-color);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.memcard__img {
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+.memcard__shadow {
+  width: 200px;
+  height: 200px;
+  background-color: var(--card-first-color-alt);
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  filter: blur(45px);
+}
+.memcard__name {
+  font-size: var(--card-h2-font-size);
+  color: var(--card-second-color);
+  margin-bottom: 0.75rem;
+}
+
+.mem__desig {
+  font-weight: 900;
+  color: var(--first-color-lighten);
+  font-size: var(--title-font-size);
+  padding-bottom: 0.75rem;
+}
+.mem-container .swiper-button-prev:after,
+.mem-container .swiper-button-next:after {
+  content: "";
+}
+.mem-container .swiper-button-prev,
+.mem-container .swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+}
+.mem-container .swiper-button-prev {
+  left: 0;
+}
+.mem-container .swiper-button-next {
+  right: 0;
+}
+.mem-container .swiper-pagination-bullet {
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+.mem-container .divpag {
+  margin-top: 40px;
+}
+
+.mem-container .swiper-pagination-bullet-active {
+  background-color: var(--second-color);
+}
+/*=============== Member Breakpoints ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .mem-container .card__data {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .mem-container .card__content {
+    margin-inline: 3rem;
+  }
+
+  .mem-container .swiper-button-next,
+  .mem-container .swiper-button-prev {
+    display: block;
+    /* margin-top: -0.5rem; */
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .mem-container .card__container {
+    max-width: 1120px;
+  }
+
+  .mem-container .swiper-button-prev {
+    left: -1rem;
+  }
+  .mem-container .swiper-button-next {
+    right: -1rem;
   }
 }
