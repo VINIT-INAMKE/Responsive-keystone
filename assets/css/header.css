@@ -8,6 +8,7 @@
   --first-color: hsl(220, 68%, 54%);
   --first-color-lighten: hsl(220, 68%, 97%);
   --title-color: hsl(220, 48%, 28%);
+  --color-mine: #8fd7ed;
   --text-color: hsl(220, 12%, 45%);
   --body-color: hsl(220, 100%, 99%);
   /*========== Font and typography ==========*/
@@ -462,5 +463,290 @@ main {
 @media (max-width: 600px) {
   .footer {
     padding: 15px;
+  }
+}
+
+/*=============== Contact Us ===============*/
+.contactUs {
+  margin-top: 5rem;
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+.contactUs .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.contactBox .form {
+  grid-area: form;
+}
+.contactBox .info {
+  grid-area: info;
+}
+.contactBox .map {
+  grid-area: map;
+}
+.contact {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 40px;
+  background: var(--first-color-lighten);
+}
+.contactBox {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "form info" "form map";
+  grid-gap: 20px;
+}
+.contact h3 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 1.4em;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+/*=============== Contact Us Form ===============*/
+
+.formBox {
+  position: relative;
+  width: 100%;
+}
+.formBox .row50 {
+  display: flex;
+  gap: 20px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.formBox .row100 .inputBox {
+  width: 100%;
+}
+.inputBox span {
+  color: var(--title-color);
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.inputBox input {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* background: #e8e8e8; */
+  box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff;
+  transition: 0.3s;
+}
+.inputBox input::placeholder {
+  color: #c5c5c5;
+  opacity: 1; /* Firefox */
+}
+.inputBox input:focus {
+  outline: none;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+.inputBox textarea {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff;
+  transition: 0.3s;
+  font-family: var(--body-font);
+  resize: none;
+  min-height: 220px;
+  margin-bottom: 20px;
+}
+.inputBox textarea::placeholder {
+  color: #c5c5c5;
+  opacity: 1; /* Firefox */
+}
+.inputBox textarea:focus {
+  outline: none;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+
+#sub-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputBox #sub-btn {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 1rem;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: var(--body-font);
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: max-content;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.inputBox #sub-btn:hover {
+  background: #f6f9fe;
+  color: #174ea6;
+}
+
+.inputBox #sub-btn:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+    0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.inputBox #sub-btn:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.inputBox #sub-btn:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.inputBox #sub-btn:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 2px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 6px 10px 4px;
+}
+
+.inputBox #sub-btn:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.inputBox #sub-btn:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 4px 4px 0,
+    rgba(60, 64, 67, 0.15) 0 8px 12px 6px;
+}
+
+.inputBox #sub-btn:disabled {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+/*=============== Contact Us Info===============*/
+
+.info .infoBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.info .infoBox div span {
+  min-width: 40px;
+  height: 40px;
+  /* color: white; */
+  /* background: var(--title-color); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1em;
+  margin-right: 15px;
+}
+
+.info .infoBox div p {
+  color: var(--title-color);
+  font-weight: 500;
+}
+.info .infoBox div a {
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+.sci {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sci li {
+  margin-right: 15px;
+}
+.sci li a {
+  font-size: 2em;
+  color: var(--text-color);
+}
+.sci li a:hover {
+  color: var(--title-color);
+}
+
+/*=============== Contact Us Map===============*/
+.map {
+  padding: 0;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.map iframe:focus {
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .contactUs {
+    padding: 20px;
+  }
+  .contactBox {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "form" "info" "map";
+  }
+
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+  .inputBox {
+    width: 100%;
+  }
+  .contact {
+    padding: 30px;
+  }
+  .map {
+    padding: 0;
+    min-height: 400px;
   }
 }

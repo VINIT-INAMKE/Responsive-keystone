@@ -12,13 +12,6 @@
   --text-color: hsl(220, 12%, 45%);
   --body-color: hsl(220, 100%, 99%);
 
-  --first-color-light: hsl(220, 68%, 97%);
-  --first-color-alt: #8fd7ed;
-  --second-color: hsl(195, 75%, 52%);
-  --dark-color: hsl(220, 48%, 28%);
-  --white-color: hsl(220, 100%, 99%);
-
-  --container-color: hsl(212, 42%, 20%);
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
@@ -678,7 +671,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
+  height: 50vh;
   margin-top: 60px;
 
   margin-bottom: 30px;
