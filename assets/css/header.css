@@ -44,7 +44,21 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
 
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5rem;
+}
 ul {
   list-style: none;
 }
