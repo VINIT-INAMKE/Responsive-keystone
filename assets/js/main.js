@@ -167,3 +167,6 @@ function Cyber_Security_Honor() {
 ></iframe>
   `;
 }
+function syllClear() {
+  document.getElementById("syllabus").innerHTML = " ";
+}

@@ -989,4 +989,7 @@ a {
   .syllabusBox {
     padding: 20px;
   }
+  .clear-bttn {
+    display: none;
+  }
 }
