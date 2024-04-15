@@ -979,6 +979,16 @@ a {
   box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
     rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
 }
+.clearbttndiv {
+  display: flex;
+  justify-content: end;
+}
+.clearbttndiv .clear-bttn {
+  padding: 1rem;
+}
+.clear-bttn i {
+  font-size: 1.5rem;
+}
 @media (max-width: 1024px) {
   .syllabuses {
     padding: 40px 20px;
@@ -989,7 +999,7 @@ a {
   .syllabusBox {
     padding: 20px;
   }
-  .clear-bttn {
+  .clearbttndiv .clear-bttn {
     display: none;
   }
 }
