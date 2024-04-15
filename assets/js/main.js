@@ -102,56 +102,68 @@ let swiperCards = new Swiper(".memcard__content", {
 /*=============== syllabus ===============*/
 
 function AI_ML_Honor() {
-  document.getElementById("syllabus").innerHTML = `<iframe
-    src="../files/AI_ML_Honor.pdf#toolbar=0"
-    type="application/pdf"
-    width="100%"
-    height="100%"
-    class="syllembed"
-  />`;
+  document.getElementById("syllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1FxELEEYq-UlUNIruCiGGmziwxzN7HboH/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+`;
 }
 function TE_Computer_Syllabus_2019() {
-  document.getElementById("syllabus").innerHTML = `<iframe
-    src="../files/TE_Computer_Syllabus_2019.pdf#toolbar=0"
-    type="application/pdf"
-    width="100%"
-    height="100%"
-    class="syllembed"
-  />`;
+  document.getElementById("syllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1a8-1FdeCoCro2ym42oE9vjFODyxdtm5E/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
 }
 function BE_Computer_Syllabus_2019() {
-  document.getElementById("syllabus").innerHTML = `<iframe
-    src="../files/BE_Computer_Syllabus_2019.pdf#toolbar=0"
-    type="application/pdf"
-    width="100%"
-    height="100%"
-    class="syllembed"
-  />`;
+  document.getElementById("syllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/11Pt-sYTxifNGLWNrNHbJBQh4NmA67w5n/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
 }
 function Data_Science_Honor() {
-  document.getElementById("syllabus").innerHTML = `<iframe
-    src="../files/Data_Science_Honor.pdf#toolbar=0"
-    type="application/pdf"
-    width="100%"
-    height="100%"
-    class="syllembed"
-  />`;
+  document.getElementById("syllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1SIckrm_03xBYlsk3xrq_uVMHfS-vO59B/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+`;
 }
 function SE_Computer_Syllabus_2019() {
-  document.getElementById("syllabus").innerHTML = `<iframe
-    src="../files/SE_Computer_Syllabus_2019.pdf#toolbar=0"
-    type="application/pdf"
-    width="100%"
-    height="100%"
-    class="syllembed"
-  />`;
+  document.getElementById("syllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1ARuyhI2a65tkeHACMcp8dirkqWanSfil/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+`;
 }
 function Cyber_Security_Honor() {
-  document.getElementById("syllabus").innerHTML = `<iframe
-    src="../files/Cyber_Security_Honor.pdf#toolbar=0"
-    type="application/pdf"
-    width="100%"
-    height="100%"
-    class="syllembed"
-  />`;
+  document.getElementById("syllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1Hrzd59oNXaLxfOFq-OnMj-9xHjSBLiub/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
 }
