@@ -98,3 +98,7 @@ let swiperCards = new Swiper(".memcard__content", {
     },
   },
 });
+
+/*=============== Time Table Select ===============*/
+
+

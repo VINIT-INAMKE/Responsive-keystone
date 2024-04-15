@@ -310,9 +310,11 @@ a {
 
 .timetablesection {
   display: grid;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-top: 8rem;
+  margin: 8rem 4rem;
+  place-items: center;
+}
+.timetablesection .tabdet {
+  display: none;
 }
 .timetablesection h1 {
   padding-bottom: 30px;
@@ -359,6 +361,75 @@ a {
   font-weight: bold;
   color: black;
   background-color: var(--color-mine);
+}
+.timetablesection h1 {
+  text-align: center;
+}
+
+.ttstext {
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+.ttselect-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.ttselect-menu {
+  max-width: max-content;
+}
+.ttselect-menu,
+.ttselect-menu * {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.ttselect-menu {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+}
+.ttselect-menu select {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.ttselect-menu select option {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.ttselect-menu select:active,
+.ttselect-menu select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.ttselect-menu:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
 }
 @media (max-width: 705px) {
   .timetablesection {
