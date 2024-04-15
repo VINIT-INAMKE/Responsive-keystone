@@ -452,7 +452,7 @@ class OutHeader extends HTMLElement {
   }
 }
 class InHeader extends HTMLElement {
-  connectedCallback() {
+  connectedCallback() { 
     this.innerHTML = `
     <nav class="nav container">
     <div class="nav__data">

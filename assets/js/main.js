@@ -99,6 +99,59 @@ let swiperCards = new Swiper(".memcard__content", {
   },
 });
 
-/*=============== Time Table Select ===============*/
+/*=============== syllabus ===============*/
 
-
+function AI_ML_Honor() {
+  document.getElementById("syllabus").innerHTML = `<iframe
+    src="../files/AI_ML_Honor.pdf#toolbar=0"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    class="syllembed"
+  />`;
+}
+function TE_Computer_Syllabus_2019() {
+  document.getElementById("syllabus").innerHTML = `<iframe
+    src="../files/TE_Computer_Syllabus_2019.pdf#toolbar=0"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    class="syllembed"
+  />`;
+}
+function BE_Computer_Syllabus_2019() {
+  document.getElementById("syllabus").innerHTML = `<iframe
+    src="../files/BE_Computer_Syllabus_2019.pdf#toolbar=0"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    class="syllembed"
+  />`;
+}
+function Data_Science_Honor() {
+  document.getElementById("syllabus").innerHTML = `<iframe
+    src="../files/Data_Science_Honor.pdf#toolbar=0"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    class="syllembed"
+  />`;
+}
+function SE_Computer_Syllabus_2019() {
+  document.getElementById("syllabus").innerHTML = `<iframe
+    src="../files/SE_Computer_Syllabus_2019.pdf#toolbar=0"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    class="syllembed"
+  />`;
+}
+function Cyber_Security_Honor() {
+  document.getElementById("syllabus").innerHTML = `<iframe
+    src="../files/Cyber_Security_Honor.pdf#toolbar=0"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    class="syllembed"
+  />`;
+}
