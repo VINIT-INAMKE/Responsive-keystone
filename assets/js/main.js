@@ -102,7 +102,7 @@ let swiperCards = new Swiper(".memcard__content", {
 /*=============== syllabus ===============*/
 
 function AI_ML_Honor() {
-  document.getElementById("syllabus").innerHTML = `
+  document.getElementById("compsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1FxELEEYq-UlUNIruCiGGmziwxzN7HboH/preview#toolbar=0"
   allow="autoplay"
@@ -113,7 +113,7 @@ function AI_ML_Honor() {
 `;
 }
 function TE_Computer_Syllabus_2019() {
-  document.getElementById("syllabus").innerHTML = `
+  document.getElementById("compsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1a8-1FdeCoCro2ym42oE9vjFODyxdtm5E/preview#toolbar=0"
   allow="autoplay"
@@ -124,7 +124,7 @@ function TE_Computer_Syllabus_2019() {
   `;
 }
 function BE_Computer_Syllabus_2019() {
-  document.getElementById("syllabus").innerHTML = `
+  document.getElementById("compsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/11Pt-sYTxifNGLWNrNHbJBQh4NmA67w5n/preview#toolbar=0"
   allow="autoplay"
@@ -135,7 +135,7 @@ function BE_Computer_Syllabus_2019() {
   `;
 }
 function Data_Science_Honor() {
-  document.getElementById("syllabus").innerHTML = `
+  document.getElementById("compsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1SIckrm_03xBYlsk3xrq_uVMHfS-vO59B/preview#toolbar=0"
   allow="autoplay"
@@ -146,7 +146,7 @@ function Data_Science_Honor() {
 `;
 }
 function SE_Computer_Syllabus_2019() {
-  document.getElementById("syllabus").innerHTML = `
+  document.getElementById("compsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1ARuyhI2a65tkeHACMcp8dirkqWanSfil/preview#toolbar=0"
   allow="autoplay"
@@ -157,7 +157,7 @@ function SE_Computer_Syllabus_2019() {
 `;
 }
 function Cyber_Security_Honor() {
-  document.getElementById("syllabus").innerHTML = `
+  document.getElementById("compsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1Hrzd59oNXaLxfOFq-OnMj-9xHjSBLiub/preview#toolbar=0"
   allow="autoplay"
@@ -168,5 +168,16 @@ function Cyber_Security_Honor() {
   `;
 }
 function syllClear() {
-  document.getElementById("syllabus").innerHTML = " ";
+  document.getElementById("compsyllabus").innerHTML = " ";
+}
+function SE_Mechanical_Syllabus_2019() {
+  document.getElementById("mechsyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1iktm54VLUK7lhWknTotFUZ6c1bGzvs9q/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
 }
