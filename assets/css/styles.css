@@ -103,9 +103,17 @@ a {
 
 #faculty .faculty-box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1rem;
-  margin-top: 50px;
+  margin: 50px 0;
+}
+#faculty .fac1 {
+  place-items: center;
+}
+#faculty .fac1 .profile {
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .profile img {
@@ -316,9 +324,7 @@ a {
 .timetablesection .tabdet {
   display: none;
 }
-.timetablesection h1 {
-  padding-bottom: 30px;
-}
+
 .timetablesection h2 {
   padding-left: 30px;
 }
