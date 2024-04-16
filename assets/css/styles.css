@@ -831,17 +831,17 @@ a {
 .mem-container .swiper-button-next {
   right: 0;
 }
-.mem-container .swiper-pagination-bullet {
+/* .mem-container .swiper-pagination-bullet {
   background-color: hsl(212, 32%, 40%);
   opacity: 1;
-}
+} */
 .mem-container .divpag {
   margin-top: 40px;
 }
 
-.mem-container .swiper-pagination-bullet-active {
+/* .mem-container .swiper-pagination-bullet-active {
   background-color: var(--second-color);
-}
+} */
 /*=============== Member Breakpoints ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {

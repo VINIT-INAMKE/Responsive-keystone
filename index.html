@@ -11,13 +11,15 @@
     />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
     <link
       rel="icon"
       href="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
     />
-
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <title>Keystone School of Engineering</title>
   </head>
   <body>
@@ -25,90 +27,257 @@
     <header class="header">
       <oute-header></oute-header>
     </header>
-    <div class="aboutuscontainer">
-      <div class="row">
-        <div class="imgWrapper">
-          <img src="./images/compdept.png" alt="" />
+    <div id="main">
+      <!-- <img class="herokeyst" src="./images/herokeyst.jpg" alt="" /> -->
+      <section class="homeimageslider swiper mySwiper">
+        <div class="homewrapper swiper-wrapper">
+          <div class="homeslide swiper-slide">
+            <img src="./images/herokeyst.jpg" alt="" class="homeimage" />
+            <div class="image-data">
+              <h1 class="text">“Welcome To Keystone School of Engineering”</h1>
+              <h2 class="text">
+                “Students without Teachers is like a ship lost in the horizon.”
+              </h2>
+            </div>
+          </div>
+          <div class="homeslide swiper-slide">
+            <img src="./tempimages/case-2.webp" alt="" class="homeimage" />
+            <div class="image-data">
+              <h1 class="text">“Welcome To Keystone School of Engineering”</h1>
+              <h2 class="text">
+                “Students without Teachers is like a ship lost in the horizon.”
+              </h2>
+            </div>
+          </div>
+          <div class="homeslide swiper-slide">
+            <img src="./tempimages/case-3.webp" alt="" class="homeimage" />
+            <div class="image-data">
+              <h1 class="text">“Welcome To Keystone School of Engineering”</h1>
+              <h2 class="text">
+                “Students without Teachers is like a ship lost in the horizon.”
+              </h2>
+            </div>
+          </div>
         </div>
-        <div class="contentWrapper">
-          <div class="content">
-            <span class="textWrapper">
-              <span class="dash"></span>Computer Engineering Department
-            </span>
+        <!-- <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div> -->
+        <div class="swiper-pagination"></div>
+      </section>
+      <section id="programmes">
+        <h1 id="prog-title">Programs Offered</h1>
+        <div class="programmes-box">
+          <div class="programme">
+            <a href="./Comp/about.html">Computer Engineering</a>
+          </div>
+          <div class="programme">
+            <a href="./Mechanical/about.html">Mechanical Engineering</a>
+          </div>
+          <div class="programme">
+            <a href="./ENTC/about.html"
+              >Electronics and Telecommunications Engineering</a
+            >
+          </div>
+          <div class="programme">
+            <a href="./AIDS/about.html">AIDS Engineering</a>
+          </div>
+        </div>
+      </section>
 
-            <h2>About Department</h2>
-            <p>
-              The department was formally established in 2012. Currently, the
-              department has a 15 faculty whose interests span almost covers all
-              areas of Computer Engineering. The department offers an
-              undergraduate program with an intake of 180 students. <br />
-              The Department of Computer Engineering envisions itself as a
-              centre of education, research and development for advancement of
-              knowledge in the field of computer engineering to best serve the
-              needs of students, industry and society. The spirit of service,
-              honesty and quality as its foundational strength, the department
-              aims to achieve its noble objective through total commitment and
-              involvement of faculty, staff and students. Collaboration with
-              industries and technical organizations is envisaged as a vital
-              linkage for sustaining relevance and continuous up gradation.<br />
-              The Department delivers quality methods of teaching that help
-              students enhance their knowledge, understand the importance of
-              being leaders in the area of their interest & provide them with an
-              unbeatable edge to success today’s demanding work place & global
-              market. <br />
-              The departments run the students club called ACES and ACM Student
-              Chapter predominately meant for encouraging the students to
-              enhance their qualities, their ideas, their thoughts etc helps out
-              the students to stand the field of Excellency. Under the
-              Association Department organizes various youth events which
-              ultimately help out to develop their leadership qualities, event
-              managing kill and much more.
-            </p>
-            <br />
+      <section class="up-container">
+        <h1 id="eve-title">Upcoming Events</h1>
+        <div class="swiper mySwiper2 evesw">
+          <div class="swiper-wrapper upcoming-container">
+            <article class="evecard__article swiper-slide">
+              <div class="evecard">
+                <div class="evecard-innerbox">
+                  <img
+                    class="evecard-img"
+                    src="https://picsum.photos/800/600?image=1041"
+                  />
+                  <div class="evecard-textbox">
+                    <div class="evecard-title">Event 1</div>
+                    <div class="evecard-subtitle">Date</div>
+                    <div class="evecard-bar"></div>
+                    <div class="evecard-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="evecard__article swiper-slide">
+              <div class="evecard">
+                <div class="evecard-innerbox">
+                  <img
+                    class="evecard-img"
+                    src="https://picsum.photos/800/600?image=1041"
+                  />
+                  <div class="evecard-textbox">
+                    <div class="evecard-title">Event 2</div>
+                    <div class="evecard-subtitle">Date</div>
+                    <div class="evecard-bar"></div>
+                    <div class="evecard-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="evecard__article swiper-slide">
+              <div class="evecard">
+                <div class="evecard-innerbox">
+                  <img
+                    class="evecard-img"
+                    src="https://picsum.photos/800/600?image=1041"
+                  />
+                  <div class="evecard-textbox">
+                    <div class="evecard-title">Event 3</div>
+                    <div class="evecard-subtitle">Date</div>
+                    <div class="evecard-bar"></div>
+                    <div class="evecard-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="photo-container">
+        <h1 id="pho-title">Photo Gallery</h1>
+        <div class="pho-container">
+          <div class="photo-gallery">
+            <div class="pho-column">
+              <div class="photo">
+                <img src="https://source.unsplash.com/OyCl7Y4y0Bk" alt="" />
+              </div>
+              <div class="photo">
+                <img src="https://source.unsplash.com/Kl1gC0ve620" alt="" />
+              </div>
+              <div class="photo">
+                <img src="https://source.unsplash.com/55btQzyDiO8" alt="" />
+              </div>
+            </div>
+            <div class="pho-column">
+              <div class="photo">
+                <img src="https://source.unsplash.com/g0dBbrGmMe0" alt="" />
+              </div>
+              <div class="photo">
+                <img src="https://source.unsplash.com/v1OW17UcR-Q" alt="" />
+              </div>
+              <div class="photo">
+                <img src="https://source.unsplash.com/Wpg3Qm0zaGk" alt="" />
+              </div>
+            </div>
+            <div class="pho-column">
+              <div class="photo">
+                <img src="https://source.unsplash.com/W3FC_bCPw8E" alt="" />
+              </div>
+              <div class="photo">
+                <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="" />
+              </div>
+              <div class="photo">
+                <img src="https://source.unsplash.com/RRksEVVoU8o" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <h2>Department Vision</h2>
-
-            <p>
-              “ To be a leading center of excellence in computer education,
-              fostering a culture of innovation and research, producing
-              technically competent and ethically responsible professionals who
-              contribute to the advancement of the society and the nation.”
-            </p>
-            <br />
-
-            <h2>Department Mission</h2>
-            <ul style="list-style: none">
-              <li>
-                “ To provide a world-class education that prepares students to
-                be technically competent, innovative, and socially responsible
-                professionals. ”
-              </li>
-              <li>
-                “ To foster a culture of excellence in teaching and research,
-                foster industry -academia partnerships, and engage in community
-                outreach activities that positively impact society. ”
-              </li>
-              <li>
-                “ To uphold high ethical standards and values in all aspects of
-                the department’s activities, and to prepare students to be
-                responsible and ethical professionals. ”
-              </li>
-              <li>
-                “ To cultivate a supportive and inclusive learning environment
-                that promotes diversity, equity, and inclusion, and prepares
-                students to work effectively in a global and multicultural
-                society. ”
-              </li>
-            </ul>
-            <p></p>
+      <div id="recruiters-div">
+        <h1>Our Recruiters</h1>
+        <div id="moving-div">
+          <div class="move">
+            <img src="./images/Capgemini.svg" alt="" />
+            <img src="./images/tcs.svg" alt="" />
+            <img src="./images/ZENSAR.svg" alt="" />
+            <img src="./images/InfoSys.svg" alt="" />
+            <img src="./images/Techmahindra.svg" alt="" />
+            <img src="./images/Yash-Technologies.svg" alt="" />
+            <img src="./images/svg" alt="" />
+          </div>
+          <div class="move">
+            <img src="./images/Capgemini.svg" alt="" />
+            <img src="./images/tcs.png" alt="" />
+            <img src="./images/ZENSAR.svg" alt="" />
+            <img src="./images/InfoSys.svg" alt="" />
+            <img src="./images/Techmahindra.svg" alt="" />
+            <img src="./images/Yash-Technologies.svg" alt="" />
+            <img src="./images/svg" alt="" />
           </div>
         </div>
       </div>
     </div>
 
     <oute-footer></oute-footer>
-
+    <!-- Swiper JS -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <!--=============== MAIN JS ===============-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        speed: 1800,
+
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 30,
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+          prev: {
+            // shadow: true,
+            translate: ["-20%", 0, -1],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+        },
+        loop: true,
+        speed: 1000,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      document.querySelectorAll(".evecard-description").forEach(function (box) {
+        $clamp(box, { clamp: 6 });
+      });
+    </script>
+
     <script src="./assets/js/components.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
