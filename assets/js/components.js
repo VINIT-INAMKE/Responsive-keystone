@@ -452,7 +452,7 @@ class OutHeader extends HTMLElement {
   }
 }
 class InHeader extends HTMLElement {
-  connectedCallback() { 
+  connectedCallback() {
     this.innerHTML = `
     <nav class="nav container">
     <div class="nav__data">
@@ -924,9 +924,11 @@ class InFooter extends HTMLElement {
   alt=""
 />
 <p>
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-  consequuntur perferendis molestias provident doloremque, architecto
-  dicta debitis officiis,
+Keystone School Of Engineering, <br />
+Near Handewadi Chowk, <br />
+Urali Devachi, 
+Shewalewadi, <br />
+Pune – 412308
 </p>
 </div>
 <ul class="footer-right">
@@ -1012,9 +1014,11 @@ class OutFooter extends HTMLElement {
       alt=""
     />
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-      consequuntur perferendis molestias provident doloremque, architecto
-      dicta debitis officiis,
+    Keystone School Of Engineering, <br />
+    Near Handewadi Chowk, <br />
+    Urali Devachi, 
+    Shewalewadi, <br />
+    Pune – 412308
     </p>
   </div>
   <ul class="footer-right">

@@ -167,13 +167,39 @@ function Cyber_Security_Honor() {
 ></iframe>
   `;
 }
-function syllClear() {
+function compClear() {
   document.getElementById("compsyllabus").innerHTML = " ";
+}
+function mechClear() {
+  document.getElementById("mechsyllabus").innerHTML = " ";
 }
 function SE_Mechanical_Syllabus_2019() {
   document.getElementById("mechsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1iktm54VLUK7lhWknTotFUZ6c1bGzvs9q/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function TE_Mechanical_Syllabus_2019() {
+  document.getElementById("mechsyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1gMvB1hs6Xb18Gc9g4eZCfR6hSJ3WXu78/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+
+function BE_Mechanical_Syllabus_2019() {
+  document.getElementById("mechsyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1y_Bxl1QVIefoA6QY6OAJDE3bawVNRf2H/preview#toolbar=0"
   allow="autoplay"
   width="100%"
   height="100%"
