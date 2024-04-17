@@ -5,9 +5,14 @@ class OutHeader extends HTMLElement {
         <div class="nav__data">
           <a href="./index.html" class="nav__logo">
             <img
-              src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662d3894&is=661ac394&hm=b58fa6fc697eb8df14284159e9f0e212f4589e798f8e1667e835b86350d7ed5e&=&format=webp&quality=lossless"
+              src="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
               alt=""
-            />
+
+            /><img
+            src="https://cdn.discordapp.com/attachments/851837926496796694/1230162947683127316/keystonename.png?ex=66325186&is=661fdc86&hm=405bcf3a5db9c3d61afd4f8cf8f671d595e4f8be73a419624439ad6bd4e8f3b8&"
+            alt=""
+            class="logo-2"
+          />
           </a>
           <!-- <img class="naac" src="./images/naac.jpg" alt="" /> -->
           <div class="nav__toggle" id="nav-toggle">
@@ -458,9 +463,13 @@ class InHeader extends HTMLElement {
     <div class="nav__data">
       <a href="../index.html" class="nav__logo">
         <img
-          src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662d3894&is=661ac394&hm=b58fa6fc697eb8df14284159e9f0e212f4589e798f8e1667e835b86350d7ed5e&=&format=webp&quality=lossless"
+          src="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
           alt=""
-        />
+        /><img
+        src="https://cdn.discordapp.com/attachments/851837926496796694/1230162947683127316/keystonename.png?ex=66325186&is=661fdc86&hm=405bcf3a5db9c3d61afd4f8cf8f671d595e4f8be73a419624439ad6bd4e8f3b8&"
+        alt=""
+        class="logo-2"
+      />
       </a>
       <!-- <img class="naac" src="../images/naac.jpg" alt="" /> -->
       <div class="nav__toggle" id="nav-toggle">

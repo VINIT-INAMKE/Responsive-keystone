@@ -107,14 +107,6 @@ a {
   gap: 1rem;
   margin: 50px 0;
 }
-#faculty .fac1 {
-  place-items: center;
-}
-#faculty .fac1 .profile {
-  width: fit-content;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 .profile img {
   border-radius: 50%;

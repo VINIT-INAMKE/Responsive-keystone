@@ -1,43 +1,10 @@
-/* html,
-body {
-  height: 100%;
-  width: 100%;
+#main {
+  margin-top: 3.5rem;
 }
-/* #main {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.281);
-} */
-
-/* #page-1 h1 {
-  font-size: 80px;
-  font-weight: 900;
-  position: relative;
-}
-
-#page-1 h2 {
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-#page-1 p {
-  font-size: 15px;
-  font-weight: 500;
-  width: 40%;
-}
-.herokeyst {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  position: fixed;
-  z-index: -1;
-} */
-*/ .homeimageslider {
+.homeimageslider {
   margin-top: 3.5rem;
   height: 70vh;
   width: 100%;
-  /* background-color: red; */
   color: var(--first-color-lighten);
 }
 
@@ -67,21 +34,28 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   z-index: 100;
+  text-align: center;
 }
-.image-data h2.text {
-  font-size: 30px;
+.image-data p {
+  width: 50%;
+  font-size: 1.1rem;
   font-weight: 500;
   z-index: 11;
   color: #fff;
+  line-height: 25px;
 }
-.image-data h1.text {
-  font-size: 45px;
+.image-data h2.text {
+  font-size: 2.2rem;
   font-weight: 900;
   z-index: 11;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 .homeimageslider .swiper-pagination-bullet {
@@ -96,9 +70,50 @@ body {
   height: 12px;
   width: 12px;
 }
+.home-btn {
+  margin-top: 30px;
+}
+.home-btn a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  font-weight: 800;
+  border-radius: 5px;
+  color: var(--title-color);
+}
+.home-btn a.blue {
+  color: #fff;
+  background-color: var(--title-color);
+  margin-right: 5px;
+  transition: 0.3s ease;
+}
+.home-btn a.blue:hover {
+  color: var(--title-color);
+  background-color: #fff;
+}
+.home-btn a.yellow {
+  color: #fff;
+  background-color: #fbbf1a;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+.home-btn a.yellow:hover {
+  color: #fbbf1a;
+  background-color: #fff;
+}
 @media (max-width: 768px) {
   .homeimageslider .swiper-pagination-bullet {
     visibility: visible;
+  }
+}
+@media (max-width: 425px) {
+  .home-btn a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 13px 13px;
+    font-weight: 800;
+    border-radius: 5px;
+    color: var(--title-color);
   }
 }
 .memcard__article {
@@ -112,17 +127,16 @@ body {
   margin-bottom: 2vw;
   background-color: #faf9f6;
 
-  padding: 4vw;
+  padding: 3.5rem;
 }
 #programmes h1#prog-title {
   font-size: 4vmin;
-
+  text-align: center;
   color: var(--title-color);
 }
 
 #programmes .programmes-box {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   margin: 50px 0;
@@ -163,10 +177,6 @@ body {
   #programmes .programmes-box {
     grid-template-columns: repeat(1, 1fr);
     margin: 30px 0;
-
-    /* max-width: 250px;
-    justify-content: center;
-    align-items: center; */
   }
   #programmes h1#prog-title {
     font-size: 6vmin;
@@ -176,9 +186,9 @@ body {
   #programmes h1#prog-title {
     font-size: 8vmin;
   }
-  #upcoming h1#eve-title {
+  /* #upcoming h1#eve-title {
     font-size: 8vmin;
-  }
+  } */
   #programmes {
     margin-top: 8vw;
     margin-bottom: 8vw;
@@ -188,9 +198,9 @@ body {
   #programmes h1#prog-title {
     font-size: 6vmin;
   }
-  .up-container h1#eve-title {
+  /* .up-container h1#eve-title {
     font-size: 6vmin;
-  }
+  } */
   .photo-container #pho-title {
     font-size: 6vmin;
   }
@@ -199,9 +209,7 @@ body {
   #programmes h1#prog-title {
     font-size: 8vmin;
   }
-  .up-container h1#eve-title {
-    font-size: 8vmin;
-  }
+
   #programmes {
     margin-top: 8vw;
     margin-bottom: 8vw;
@@ -210,12 +218,13 @@ body {
     font-size: 8vmin;
   }
 }
+
 .up-container {
   margin-top: 2vw;
   margin-bottom: 2vw;
   background-color: #f0f8ff;
-  padding: 4vw;
-  height: 70vh;
+  padding: 2vw 4vw 0 4vw;
+  height: 60vh;
   width: 100%;
 }
 .upcoming-container {
@@ -223,7 +232,6 @@ body {
 }
 .up-container h1#eve-title {
   font-size: 4vmin;
-
   color: var(--title-color);
 }
 .evecard {
@@ -324,6 +332,20 @@ body {
   transition: color 0.2s;
 }
 
+@media only screen and (max-width: 768px) {
+  .evecard-img {
+    display: none;
+  }
+  .evecard-textbox {
+    margin-left: 30px;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    left: 0;
+    width: calc(100% - 30px);
+  }
+}
+
 .photo-container {
   margin-top: 2vw;
   margin-bottom: 2vw;
@@ -334,7 +356,7 @@ body {
 }
 .photo-container #pho-title {
   font-size: 4vmin;
-
+  text-align: center;
   color: var(--title-color);
 }
 .pho-container {
@@ -381,13 +403,14 @@ body {
 }
 #recruiters-div h1 {
   margin-top: 5vh;
+  font-size: 4vmin;
+  text-align: center;
+  color: var(--title-color);
 }
 #moving-div {
-  /* background-color: var(--first-color-lighten); */
   margin-top: 5vh;
   margin-bottom: 5vh;
   white-space: nowrap;
-  /* display: flex; */
   padding: 2vw;
   overflow: hidden;
   width: 60%;
@@ -398,14 +421,19 @@ body {
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2vw; */
 }
 #moving-div .move img {
   margin: 0 1vw;
   height: 2vw;
+}
+@media (max-width: 768px) {
+  #moving-div .move img {
+    margin: 0 1vw;
+    height: 3vw;
+  }
+  #moving-div {
+    width: 80%;
+  }
 }
 
 @keyframes mobe {

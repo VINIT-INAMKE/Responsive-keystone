@@ -108,8 +108,11 @@ a {
 } */
 .nav__logo img {
   height: 4rem;
+  padding-right: 5px;
 }
-
+.nav__logo img.logo-2 {
+  height: 3.6rem;
+}
 .nav__toggle {
   position: relative;
   width: 32px;
@@ -145,6 +148,9 @@ a {
   }
   .nav__logo img {
     height: 3rem;
+  }
+  .nav__logo img.logo-2 {
+    height: 2.6rem;
   }
   .nav__menu::-webkit-scrollbar {
     width: 0.5rem;
@@ -250,7 +256,16 @@ a {
   .dropdown__group {
     padding-left: 1.5rem;
   }
+  .nav__logo img {
+    height: 3rem;
+    padding: 5px 0;
+  }
+  .nav__logo img.logo-2 {
+    height: 2.8rem;
+    padding: 5px 0;
+  }
 }
+
 /* For large devices */
 @media screen and (min-width: 1240px) {
   /* Nav */
@@ -531,7 +546,7 @@ a {
   padding: 1rem;
   border-radius: 1rem;
   /* background: #e8e8e8; */
-  box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff;
+  /* box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff; */
   transition: 0.3s;
 }
 .inputBox input::placeholder {
@@ -540,14 +555,15 @@ a {
 }
 .inputBox input:focus {
   outline: none;
-  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  box-shadow: inset 10px 10px 30px #c5c5c561, inset -20px -20px 60px #ffffff;
+
   transition: 0.3s;
 }
 .inputBox textarea {
   border: none;
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff;
+  /* box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff; */
   transition: 0.3s;
   font-family: var(--body-font);
   resize: none;
@@ -560,7 +576,7 @@ a {
 }
 .inputBox textarea:focus {
   outline: none;
-  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  box-shadow: inset 10px 10px 30px #c5c5c561, inset -20px -20px 60px #ffffff;
   transition: 0.3s;
 }
 

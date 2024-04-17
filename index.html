@@ -28,41 +28,60 @@
       <oute-header></oute-header>
     </header>
     <div id="main">
-      <!-- <img class="herokeyst" src="./images/herokeyst.jpg" alt="" /> -->
       <section class="homeimageslider swiper mySwiper">
         <div class="homewrapper swiper-wrapper">
           <div class="homeslide swiper-slide">
             <img src="./images/herokeyst.jpg" alt="" class="homeimage" />
             <div class="image-data">
-              <h1 class="text">“Welcome To Keystone School of Engineering”</h1>
-              <h2 class="text">
+              <h2 class="text">Keystone School Of Engineering</h2>
+              <p>
                 “Students without Teachers is like a ship lost in the horizon.”
-              </h2>
+              </p>
+              <div class="home-btn">
+                <a class="blue" href="./aboutus.html">About Us</a>
+                <a class="yellow" href="#programmes">Explore Programs</a>
+              </div>
             </div>
           </div>
           <div class="homeslide swiper-slide">
-            <img src="./tempimages/case-2.webp" alt="" class="homeimage" />
+            <img
+              src="https://media.discordapp.net/attachments/851837926496796694/1228761727244566528/aids.jpg?ex=662d3889&is=661ac389&hm=2cd870cf9421fc11f99935a8ee4c1c5794fcbbe8745e2443020904b2f32101ba&=&format=webp&width=1293&height=676"
+              alt=""
+              class="homeimage"
+            />
             <div class="image-data">
-              <h1 class="text">“Welcome To Keystone School of Engineering”</h1>
-              <h2 class="text">
+              <h2 class="text">Keystone School Of Engineering</h2>
+              <p>
                 “Students without Teachers is like a ship lost in the horizon.”
-              </h2>
+              </p>
+              <div class="home-btn">
+                <a class="blue" href="./aboutus.html">About Us</a>
+                <a class="yellow" href="#programmes">Explore Programs</a>
+              </div>
             </div>
           </div>
           <div class="homeslide swiper-slide">
-            <img src="./tempimages/case-3.webp" alt="" class="homeimage" />
+            <img
+              src="https://cdn.discordapp.com/attachments/851837926496796694/1228761728410456104/entc.jpg?ex=662d3889&is=661ac389&hm=526483363055cf9603a601b34e199c018049a9afd0ee147a1284c01ba0b83838&"
+              alt=""
+              class="homeimage"
+            />
             <div class="image-data">
-              <h1 class="text">“Welcome To Keystone School of Engineering”</h1>
-              <h2 class="text">
+              <h2 class="text">Keystone School Of Engineering</h2>
+              <p>
                 “Students without Teachers is like a ship lost in the horizon.”
-              </h2>
+              </p>
+              <div class="home-btn">
+                <a class="blue" href="./aboutus.html">About Us</a>
+                <a class="yellow" href="#programmes">Explore Programs</a>
+              </div>
             </div>
           </div>
         </div>
-        <!-- <div class="swiper-button-next nav-btn"></div>
-      <div class="swiper-button-prev nav-btn"></div> -->
+
         <div class="swiper-pagination"></div>
       </section>
+
       <section id="programmes">
         <h1 id="prog-title">Programs Offered</h1>
         <div class="programmes-box">
@@ -82,7 +101,7 @@
           </div>
         </div>
       </section>
-
+      <section id="home-admission"></section>
       <section class="up-container">
         <h1 id="eve-title">Upcoming Events</h1>
         <div class="swiper mySwiper2 evesw">
@@ -101,8 +120,7 @@
                     <div class="evecard-description">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      aliqua. Ut enim ad minim
                     </div>
                   </div>
                 </div>
@@ -122,8 +140,7 @@
                     <div class="evecard-description">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      aliqua. Ut enim ad minim
                     </div>
                   </div>
                 </div>
@@ -143,8 +160,7 @@
                     <div class="evecard-description">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      aliqua. Ut enim ad minim
                     </div>
                   </div>
                 </div>
@@ -154,6 +170,7 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
+
       <section class="photo-container">
         <h1 id="pho-title">Photo Gallery</h1>
         <div class="pho-container">
@@ -196,7 +213,7 @@
       </section>
 
       <div id="recruiters-div">
-        <h1>Our Recruiters</h1>
+        <h1 id="recruiters-title">Our Recruiters</h1>
         <div id="moving-div">
           <div class="move">
             <img src="./images/Capgemini.svg" alt="" />
@@ -219,8 +236,8 @@
         </div>
       </div>
     </div>
-
     <oute-footer></oute-footer>
+    <script src="./assets/js/components.js"></script>
     <!-- Swiper JS -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!--=============== MAIN JS ===============-->
@@ -240,10 +257,6 @@
           el: ".swiper-pagination",
           clickable: true,
         },
-        // navigation: {
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // },
       });
       var swiper2 = new Swiper(".mySwiper2", {
         spaceBetween: 30,
@@ -278,7 +291,6 @@
       });
     </script>
 
-    <script src="./assets/js/components.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
