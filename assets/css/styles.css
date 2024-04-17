@@ -234,18 +234,20 @@ a {
   width: 80%;
   max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 50px;
   overflow-x: hidden;
   padding: 5rem 0;
 }
 .hodrow .hodimgWrapper {
   overflow: hidden;
+  height: 60vh;
   border-radius: 20px;
 }
 .hodrow .hodimgWrapper img {
   width: 100%;
-  height: 100%;
+  height: 60vh;
+
   object-fit: cover;
   transition: 0.5s;
 }
@@ -644,19 +646,23 @@ a {
   width: 80%;
   max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 50px;
   overflow-x: hidden;
   padding: 5rem 0;
+  place-items: center;
 }
 .assrow .assimgWrapper {
   overflow: hidden;
   border-radius: 20px;
+  width: 350px;
+  height: 350px;
 }
 .assrow .assimgWrapper img {
-  width: 100%;
-  height: 100%;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
+  position: center;
   transition: 0.5s;
 }
 .assrow .assimgWrapper img:hover {
@@ -686,7 +692,7 @@ a {
 .assrow .dash {
   display: inline-block;
   background: #383f47;
-  width: 70px;
+  width: 60px;
   height: 5px;
 }
 .assrow .asscontentWrapper h2 {
