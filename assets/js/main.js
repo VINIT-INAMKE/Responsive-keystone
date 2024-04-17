@@ -173,6 +173,9 @@ function compClear() {
 function mechClear() {
   document.getElementById("mechsyllabus").innerHTML = " ";
 }
+function keyClear() {
+  document.getElementById("keypersonscontent").innerHTML = " ";
+}
 function SE_Mechanical_Syllabus_2019() {
   document.getElementById("mechsyllabus").innerHTML = `
   <iframe

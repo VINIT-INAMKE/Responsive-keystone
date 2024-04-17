@@ -241,13 +241,13 @@ a {
 }
 .hodrow .hodimgWrapper {
   overflow: hidden;
-  height: 60vh;
+  height: 70vh;
   border-radius: 20px;
 }
 .hodrow .hodimgWrapper img {
   width: 100%;
-  height: 60vh;
-
+  height: 70vh;
+  position: center;
   object-fit: cover;
   transition: 0.5s;
 }
@@ -292,6 +292,7 @@ a {
   line-height: 25px;
   padding-bottom: 25px;
   text-align: justify;
+  text-indent: 50px;
 }
 .hodrow .hodcontentWrapper li {
   padding-bottom: 0.8rem;
@@ -307,12 +308,33 @@ a {
     padding-left: 0;
   }
 }
-
+@media (max-width: 768px) {
+  .hodrow .hodimgWrapper img {
+    height: 30vh;
+  }
+  .hodrow .hodimgWrapper {
+    height: 30vh;
+  }
+}
+@media (max-width: 400px) {
+  .hodrow .hodimgWrapper img {
+    height: 25vh;
+  }
+  .hodrow .hodimgWrapper {
+    height: 25vh;
+  }
+}
 /*=============== TimeTable styles ===============*/
 
 .timetablesection {
   display: grid;
-  margin: 8rem 4rem;
+  margin: 4rem 4rem;
+  margin-bottom: 8rem;
+  place-items: center;
+}
+.timetablesection1 {
+  display: grid;
+  margin: 8rem 8rem 4rem 4rem;
   place-items: center;
 }
 .timetablesection .tabdet {
@@ -1003,6 +1025,94 @@ a {
     height: 500px;
   }
   .syllabusBox {
+    padding: 20px;
+  }
+  .clearbttndiv .clear-bttn {
+    display: none;
+  }
+}
+
+.keypersons {
+  margin-top: 5rem;
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+.keypersons .keypersonstitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.keypersonsBox {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 40px;
+  background: var(--first-color-lighten);
+  height: auto;
+}
+.keypersons .keypersonsembed {
+  height: 975px;
+}
+.keypersons .keypersonsbtndiv {
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+.keypersonsButton {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+.keypersonsButton2 {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  margin: auto;
+}
+.key-desig {
+  font-size: 1rem;
+}
+.keypersonsButton img {
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: center;
+}
+.keypersonsButton2 img {
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: center;
+}
+@media (max-width: 472px) {
+  .keypersonsButton2 img {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: center;
+  }
+}
+@media (max-width: 1024px) {
+  .keypersons {
+    padding: 40px 20px;
+  }
+  .keypersons .keypersonsembed {
+    height: 500px;
+  }
+  .keypersonsBox {
     padding: 20px;
   }
   .clearbttndiv .clear-bttn {
