@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone-fav.jpg" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+
+    <div class="notices">
+      <div class="noticestitle">
+        <h2>Admission Notices</h2>
+      </div>
+      <div class="clearbttndiv">
+        <button class="noticesButton clear-bttn" onclick="compClear()">
+          <i class="ri-close-circle-fill"></i>
+        </button>
+      </div>
+      <div class="noticesBox" id="noticesBox">
+        <div class="noticesbtndiv">
+          <button class="noticesButton" onclick="SE_Computer_Syllabus_2019()">
+            Notice
+          </button>
+          <button class="noticesButton" onclick="TE_Computer_Syllabus_2019()">
+            Notice
+          </button>
+          <button class="noticesButton" onclick="BE_Computer_Syllabus_2019()">
+            Notice
+          </button>
+          <button class="noticesButton" onclick="AI_ML_Honor()">Notice</button>
+          <button class="noticesButton" onclick="Data_Science_Honor()">
+            Notice
+          </button>
+          <button class="noticesButton" onclick="Cyber_Security_Honor()">
+            Notice
+          </button>
+        </div>
+        <div id="noticesdiv"></div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
