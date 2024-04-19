@@ -51,7 +51,7 @@ class OutHeader extends HTMLElement {
                     <a href="./about/keypersons.html" class="dropdown__link">Key Persons</a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link">Core Values</a>
+                    <a href="./about/corevalues.html" class="dropdown__link">Core Values</a>
                   </li>
                 </ul>
               </div>
@@ -494,7 +494,7 @@ class InHeader extends HTMLElement {
                     <a href="../about/keypersons.html" class="dropdown__link">Key Persons</a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link">Core Values</a>
+                    <a href="../about/corevalues.html" class="dropdown__link">Core Values</a>
                   </li>
                 </ul>
               </div>
