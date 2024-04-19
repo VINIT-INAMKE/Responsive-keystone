@@ -8,7 +8,7 @@ class OutHeader extends HTMLElement {
           src="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
           alt=""
         /><img
-          src="https://cdn.discordapp.com/attachments/851837926496796694/1230162947683127316/keystonename.png?ex=66325186&is=661fdc86&hm=405bcf3a5db9c3d61afd4f8cf8f671d595e4f8be73a419624439ad6bd4e8f3b8&"
+          src="https://media.discordapp.net/attachments/1229841007013531729/1230766863651307591/keystonename.png?ex=663483f6&is=66220ef6&hm=8d6ea55ef0f709d31eaae9a4455251b5d502dc3b8d2e3c9e2c297725657a28fd&=&format=webp&quality=lossless&width=241&height=85"
           alt=""
           class="logo-2"
         />
@@ -451,7 +451,7 @@ class InHeader extends HTMLElement {
           src="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
           alt=""
         /><img
-          src="https://cdn.discordapp.com/attachments/851837926496796694/1230162947683127316/keystonename.png?ex=66325186&is=661fdc86&hm=405bcf3a5db9c3d61afd4f8cf8f671d595e4f8be73a419624439ad6bd4e8f3b8&"
+          src="https://media.discordapp.net/attachments/1229841007013531729/1230766863651307591/keystonename.png?ex=663483f6&is=66220ef6&hm=8d6ea55ef0f709d31eaae9a4455251b5d502dc3b8d2e3c9e2c297725657a28fd&=&format=webp&quality=lossless&width=241&height=85"
           alt=""
           class="logo-2"
         />
