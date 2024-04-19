@@ -67,53 +67,34 @@ class OutHeader extends HTMLElement {
 
           <div class="dropdown__container">
             <div class="dropdown__content">
-              <div class="dropdown__group">
-                <div class="dropdown__icon">
-                  <i class="ri-flashlight-line"></i>
-                </div>
-
-                <span class="dropdown__title">First Year Admissions</span>
-
-                <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                </ul>
-              </div>
+              
 
               <div class="dropdown__group">
                 <div class="dropdown__icon">
-                  <i class="ri-heart-3-line"></i>
+                <i class="ri-community-line"></i>
                 </div>
 
-                <span class="dropdown__title">Direct Year Admissions</span>
+                <span class="dropdown__title">Admissions</span>
 
                 <ul class="dropdown__list">
                   <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
+                    <a href="./admission/brochure.html" class="dropdown__link"
+                      >Admission Brochure</a
+                    >
+                    </li>
+                    <li>
+                      <a href="./admission/procedure.html" class="dropdown__link"
+                        >Admission Procedure</a
+                      >
+                    </li>
+                  <li>
+                    <a href="./admission/enquiry.html" class="dropdown__link"
+                      >Admission Enquiry</a
                     >
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
+                    <a href="./admission/notice.html" class="dropdown__link"
+                      >Admission Notice</a
                     >
                   </li>
                 </ul>
@@ -544,53 +525,34 @@ class InHeader extends HTMLElement {
 
           <div class="dropdown__container">
             <div class="dropdown__content">
-              <div class="dropdown__group">
-                <div class="dropdown__icon">
-                  <i class="ri-flashlight-line"></i>
-                </div>
-
-                <span class="dropdown__title">First Year Admissions</span>
-
-                <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                </ul>
-              </div>
+              
 
               <div class="dropdown__group">
                 <div class="dropdown__icon">
-                  <i class="ri-heart-3-line"></i>
+                <i class="ri-community-line"></i>
                 </div>
 
-                <span class="dropdown__title">Direct Year Admissions</span>
+                <span class="dropdown__title">Admissions</span>
 
                 <ul class="dropdown__list">
                   <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
+                    <a href="../admission/brochure.html" class="dropdown__link"
+                      >Admission Brochure</a
+                    >
+                    </li>
+                    <li>
+                      <a href="../admission/procedure.html" class="dropdown__link"
+                        >Admission Procedure</a
+                      >
+                    </li>
+                  <li>
+                    <a href="../admission/enquiry.html" class="dropdown__link"
+                      >Admission Enquiry</a
                     >
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link"
-                      >Admission Information</a
+                    <a href="../admission/notice.html" class="dropdown__link"
+                      >Admission Notice</a
                     >
                   </li>
                 </ul>
