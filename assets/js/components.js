@@ -3,7 +3,7 @@ class OutHeader extends HTMLElement {
     this.innerHTML = `
     <nav class="nav container">
     <div class="nav__data">
-      <a href="./index.html" class="nav__logo">
+      <a href="/" class="nav__logo">
         <img
           src="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
           alt=""
@@ -461,7 +461,7 @@ class InHeader extends HTMLElement {
     this.innerHTML = `
     <nav class="nav container">
     <div class="nav__data">
-      <a href="../index.html" class="nav__logo">
+      <a href="/" class="nav__logo">
         <img
           src="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
           alt=""
