@@ -114,37 +114,22 @@ class OutHeader extends HTMLElement {
                   <i class="ri-code-line"></i>
                 </div>
 
-                <span class="dropdown__title">Data</span>
+                <span class="dropdown__title">Training And Placements Department</span>
 
                 <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
+                <li>
+                <a href="./t&p/about.html" class="dropdown__link">About Department</a>
+                  </li> 
+                   <li>
+              <a href="./t&p/coordinators.html" class="dropdown__link">Co-ordinators</a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link">TempData</a>
+                    <a href="./t&p/preplacement.html" class="dropdown__link">Preplacement Gallery</a>
                   </li>
                 </ul>
               </div>
 
-              <div class="dropdown__group">
-                <div class="dropdown__icon">
-                  <i class="ri-pen-nib-line"></i>
-                </div>
-
-                <span class="dropdown__title">Data</span>
-
-                <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
-                  </li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </li>
@@ -572,44 +557,25 @@ class InHeader extends HTMLElement {
                   <i class="ri-code-line"></i>
                 </div>
 
-                <span class="dropdown__title">Data</span>
+                <span class="dropdown__title">Training And Placements Department</span>
 
                 <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
+                <li>
+                <a href="../t&p/about.html" class="dropdown__link">About Department</a>
+                  </li> 
+                   <li>
+              <a href="../t&p/coordinators.html" class="dropdown__link">Co-ordinators</a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link">TempData</a>
+                    <a href="../t&p/preplacement.html" class="dropdown__link">Preplacement Gallery</a>
                   </li>
                 </ul>
               </div>
 
-              <div class="dropdown__group">
-                <div class="dropdown__icon">
-                  <i class="ri-pen-nib-line"></i>
-                </div>
-
-                <span class="dropdown__title">Data</span>
-
-                <ul class="dropdown__list">
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__link">TempData</a>
-                  </li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </li>
-
-        <!-- <li>
-            <a href="#" class="nav__link">Pricing</a>
-          </li> -->
 
         <!--=============== DROPDOWN 3 ===============-->
         <li class="dropdown__item">
