@@ -389,7 +389,7 @@
     flex-direction: column;
   }
 }
-#recruiters-div {
+.recruiters-div {
   background-color: #f0f8ff;
 
   width: 100%;
@@ -401,13 +401,13 @@
   text-align: center;
   z-index: 10;
 }
-#recruiters-div h1 {
+.recruiters-div h1 {
   margin-top: 5vh;
   font-size: 4vmin;
   text-align: center;
   color: var(--title-color);
 }
-#moving-div {
+.moving-div {
   margin-top: 5vh;
   margin-bottom: 5vh;
   white-space: nowrap;
@@ -415,23 +415,23 @@
   overflow: hidden;
   width: 60%;
 }
-#moving-div .move {
+.moving-div .move {
   display: inline-block;
   animation-name: mobe;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-#moving-div .move img {
+.moving-div .move img {
   margin: 0 1vw;
   height: 2vw;
 }
 @media (max-width: 768px) {
-  #moving-div .move img {
+  .moving-div .move img {
     margin: 0 1vw;
     height: 3vw;
   }
-  #moving-div {
+  .moving-div {
     width: 80%;
   }
 }

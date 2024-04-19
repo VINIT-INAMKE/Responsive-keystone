@@ -173,8 +173,8 @@ function compClear() {
 function mechClear() {
   document.getElementById("mechsyllabus").innerHTML = " ";
 }
-function keyClear() {
-  document.getElementById("keypersonscontent").innerHTML = " ";
+function feClear() {
+  document.getElementById("fesyllabus").innerHTML = " ";
 }
 function SE_Mechanical_Syllabus_2019() {
   document.getElementById("mechsyllabus").innerHTML = `
@@ -203,6 +203,17 @@ function BE_Mechanical_Syllabus_2019() {
   document.getElementById("mechsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1y_Bxl1QVIefoA6QY6OAJDE3bawVNRf2H/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function First_Year() {
+  document.getElementById("fesyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1kOsxz6bjzyoZoF6bB4EquJGyH2Xdne-b/preview#toolbar=0"
   allow="autoplay"
   width="100%"
   height="100%"

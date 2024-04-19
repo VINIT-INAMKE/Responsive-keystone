@@ -2,7 +2,7 @@ function somansir() {
   document.getElementById(
     "keypersonscontent"
   ).innerHTML = `<div class="hodcontainer">
-    <div class="hodrow">
+  <div class="key-hodrow" >
       <div class="keypersonsButton2">
         <img
           src="https://cdn.discordapp.com/attachments/851837926496796694/1230251235857137744/SomanSir.png?ex=6632a3bf&is=66202ebf&hm=ae57db205734636b5f91069dfd0422a54d2456c6cfb3e84d10fd549eba714cfa&"
@@ -71,7 +71,7 @@ function milindjoshi() {
   document.getElementById(
     "keypersonscontent"
   ).innerHTML = `<div class="hodcontainer">
-    <div class="hodrow">
+  <div class="key-hodrow" >
       <div class="keypersonsButton2">
         <img
           src="https://www.keystoneschoolofengineering.com/wp-content/uploads/2015/06/MilindJoshi-150x150.jpg"
@@ -125,7 +125,7 @@ function prashantkasabe() {
   document.getElementById(
     "keypersonscontent"
   ).innerHTML = `<div class="hodcontainer">
-      <div class="hodrow">
+  <div class="key-hodrow" >
         <div class="keypersonsButton2">
           <img
             src="http://www.keystoneschoolofengineering.com/wp-content/uploads/2016/05/kasabeSir-150x150.png"
@@ -181,7 +181,7 @@ function bharatBhusanSud() {
   document.getElementById(
     "keypersonscontent"
   ).innerHTML = `<div class="hodcontainer">
-        <div class="hodrow">
+  <div class="key-hodrow" >
           <div class="keypersonsButton2">
             <img
               src="http://www.keystoneschoolofengineering.com/wp-content/uploads/2015/06/bharatBhusanSud_Dean.jpg"
@@ -236,7 +236,7 @@ function principal() {
   document.getElementById(
     "keypersonscontent"
   ).innerHTML = `<div class="hodcontainer">
-          <div class="hodrow">
+  <div class="key-hodrow" >
             <div class="keypersonsButton2">
               <img
                 src="https://www.keystoneschoolofengineering.com/wp-content/uploads/2023/10/principal-1-261x300.jpg"
