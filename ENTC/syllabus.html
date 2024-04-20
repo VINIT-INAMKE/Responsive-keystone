@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone-fav.jpg" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+
+    <div class="syllabuses">
+      <div class="syllabustitle">
+        <h2>Syllabus 2019 Pattern</h2>
+      </div>
+      <div class="clearbttndiv">
+        <button class="syllButton clear-bttn" onclick="entcClear()">
+          <i class="ri-close-circle-fill"></i>
+        </button>
+      </div>
+      <div class="syllabusBox" id="syllabusBox">
+        <div class="syllbtndiv">
+          <button class="syllButton" onclick="SE_ENTC_Syllabus_2019()">
+            SE ENTC
+          </button>
+          <button class="syllButton" onclick="TE_ENTC_Syllabus_2019()">
+            TE ENTC
+          </button>
+          <button class="syllButton" onclick="BE_ENTC_Syllabus_2019()">
+            BE ENTC
+          </button>
+        </div>
+        <div id="entcsyllabus"></div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

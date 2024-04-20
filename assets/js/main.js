@@ -176,6 +176,9 @@ function mechClear() {
 function feClear() {
   document.getElementById("fesyllabus").innerHTML = " ";
 }
+function entcClear() {
+  document.getElementById("entcsyllabus").innerHTML = " ";
+}
 function SE_Mechanical_Syllabus_2019() {
   document.getElementById("mechsyllabus").innerHTML = `
   <iframe
@@ -214,6 +217,39 @@ function First_Year() {
   document.getElementById("fesyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/1kOsxz6bjzyoZoF6bB4EquJGyH2Xdne-b/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function BE_ENTC_Syllabus_2019() {
+  document.getElementById("entcsyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1QXzMH4Sbf3wDMOXw-woKVh2A_Gb6yY8W/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function SE_ENTC_Syllabus_2019() {
+  document.getElementById("entcsyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1XvfmVSaINCmCMmO5SUdto_dYg3ygHZEe/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function TE_ENTC_Syllabus_2019() {
+  document.getElementById("entcsyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/139r4tXPZJ5oPheMkKcmdGaJKza8-OfPE/preview#toolbar=0"
   allow="autoplay"
   width="100%"
   height="100%"
