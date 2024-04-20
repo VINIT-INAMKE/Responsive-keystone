@@ -39,7 +39,7 @@ class OutHeader extends HTMLElement {
 
                 <ul class="dropdown__list">
                   <li>
-                    <a href="./about/collegeprofile.html" class="dropdown__link">College Profile</a>
+                    <a href="./about/collegeprofile.html" class="dropdown__link">About KSE</a>
                   </li>
                  
                   <li>
@@ -48,7 +48,7 @@ class OutHeader extends HTMLElement {
                     </a>
                   </li>
                   <li>
-                    <a href="./about/keypersons.html" class="dropdown__link">Key Persons</a>
+                    <a href="./about/keypersons.html" class="dropdown__link">Management</a>
                   </li>
                   <li>
                     <a href="./about/corevalues.html" class="dropdown__link">Core Values</a>
@@ -379,7 +379,7 @@ class OutHeader extends HTMLElement {
                   <i class="ri-robot-2-line"></i>
                 </div>
 
-                <span class="dropdown__title">AIDS</span>
+                <span class="dropdown__title">AI & DS</span>
 
                 <ul class="dropdown__list">
                   <li>
@@ -482,7 +482,7 @@ class InHeader extends HTMLElement {
 
                 <ul class="dropdown__list">
                   <li>
-                    <a href="../about/collegeprofile.html" class="dropdown__link">College Profile</a>
+                    <a href="../about/collegeprofile.html" class="dropdown__link">About KSE</a>
                   </li>
                   
                   <li>
@@ -491,7 +491,7 @@ class InHeader extends HTMLElement {
                     >
                   </li>
                   <li>
-                    <a href="../about/keypersons.html" class="dropdown__link">Key Persons</a>
+                    <a href="../about/keypersons.html" class="dropdown__link">Management</a>
                   </li>
                   <li>
                     <a href="../about/corevalues.html" class="dropdown__link">Core Values</a>
@@ -824,7 +824,7 @@ class InHeader extends HTMLElement {
                   <i class="ri-robot-2-line"></i>
                 </div>
 
-                <span class="dropdown__title">AIDS</span>
+                <span class="dropdown__title">AI & DS</span>
 
                 <ul class="dropdown__list">
                   <li>

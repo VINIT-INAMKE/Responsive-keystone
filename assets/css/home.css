@@ -1,6 +1,7 @@
-#main {
+.mainhome {
   margin-top: 3.5rem;
 }
+
 .homeimageslider {
   margin-top: 3.5rem;
   height: 70vh;
@@ -13,9 +14,11 @@
   width: 100%;
   height: 100%;
 }
+
 .homeslide {
   overflow: hidden;
 }
+
 .homeslide::before {
   content: "";
   position: absolute;
@@ -24,11 +27,13 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
+
 .homeslide .homeimage {
   height: 80vh;
   width: 100%;
   object-fit: cover;
 }
+
 .homeslide .image-data {
   position: absolute;
   top: 50%;
@@ -42,6 +47,7 @@
   z-index: 100;
   text-align: center;
 }
+
 .image-data p {
   width: 50%;
   font-size: 1.1rem;
@@ -50,6 +56,7 @@
   color: #fff;
   line-height: 25px;
 }
+
 .image-data h2.text {
   font-size: 2.2rem;
   font-weight: 900;
@@ -65,14 +72,17 @@
   background-color: #fff;
   visibility: hidden;
 }
+
 .homeimageslider .swiper-pagination-bullet-active {
   background-color: var(--first-color);
   height: 12px;
   width: 12px;
 }
+
 .home-btn {
   margin-top: 30px;
 }
+
 .home-btn a {
   text-decoration: none;
   font-size: 0.9rem;
@@ -81,41 +91,31 @@
   border-radius: 5px;
   color: var(--title-color);
 }
+
 .home-btn a.blue {
   color: #fff;
   background-color: var(--title-color);
   margin-right: 5px;
   transition: 0.3s ease;
 }
+
 .home-btn a.blue:hover {
   color: var(--title-color);
   background-color: #fff;
 }
+
 .home-btn a.yellow {
   color: #fff;
   background-color: #fbbf1a;
   margin-left: 5px;
   transition: 0.3s ease;
 }
+
 .home-btn a.yellow:hover {
   color: #fbbf1a;
   background-color: #fff;
 }
-@media (max-width: 768px) {
-  .homeimageslider .swiper-pagination-bullet {
-    visibility: visible;
-  }
-}
-@media (max-width: 425px) {
-  .home-btn a {
-    text-decoration: none;
-    font-size: 0.8rem;
-    padding: 13px 13px;
-    font-weight: 800;
-    border-radius: 5px;
-    color: var(--title-color);
-  }
-}
+
 .memcard__article {
   width: 390px;
   border-radius: 1.25rem;
@@ -125,10 +125,11 @@
 #programmes {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: #faf9f6;
+  background-color: #8FD7ED;
 
   padding: 3.5rem;
 }
+
 #programmes h1#prog-title {
   font-size: 4vmin;
   text-align: center;
@@ -143,6 +144,7 @@
   text-align: center;
   place-content: center;
 }
+
 .programme {
   padding: 20px 20px 20px 20px;
   background-color: #f8f8ff;
@@ -151,6 +153,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .programmes-box a {
   font-size: 1.5rem;
   font-weight: 700;
@@ -158,9 +161,11 @@
   color: var(--card-container-color);
   text-align: center;
 }
+
 .programmes-box a:hover {
   color: rgba(0, 0, 255, 0.614);
 }
+
 .programmes-box p {
   width: 70%;
   font-weight: 500;
@@ -168,72 +173,27 @@
   margin-left: 15%;
 }
 
-@media (max-width: 1210px) {
-  #programmes .programmes-box {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 662px) {
-  #programmes .programmes-box {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 30px 0;
-  }
-  #programmes h1#prog-title {
-    font-size: 6vmin;
-  }
-}
-@media (max-width: 450px) {
-  #programmes h1#prog-title {
-    font-size: 8vmin;
-  }
-  /* #upcoming h1#eve-title {
-    font-size: 8vmin;
-  } */
-  #programmes {
-    margin-top: 8vw;
-    margin-bottom: 8vw;
-  }
-}
-@media (max-width: 662px) {
-  #programmes h1#prog-title {
-    font-size: 6vmin;
-  }
-  /* .up-container h1#eve-title {
-    font-size: 6vmin;
-  } */
-  .photo-container #pho-title {
-    font-size: 6vmin;
-  }
-}
-@media (max-width: 450px) {
-  #programmes h1#prog-title {
-    font-size: 8vmin;
-  }
 
-  #programmes {
-    margin-top: 8vw;
-    margin-bottom: 8vw;
-  }
-  .photo-container #pho-title {
-    font-size: 8vmin;
-  }
-}
 
-.up-container {
+#up-container {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: #f0f8ff;
+  background-color: #bad8f1;
   padding: 2vw 4vw 0 4vw;
   height: 60vh;
   width: 100%;
 }
+
 .upcoming-container {
   width: 80%;
 }
-.up-container h1#eve-title {
+
+#up-container h1#eve-title {
+  text-align: center;
   font-size: 4vmin;
   color: var(--title-color);
 }
+
 .evecard {
   margin-top: 40px;
   position: relative;
@@ -249,6 +209,7 @@
 
   transition: transform 0.2s ease;
 }
+
 .evecard:hover {
   transform: translate(0px, -3px);
 }
@@ -260,6 +221,7 @@
   bottom: 0;
   left: 0;
 }
+
 .evecard-img {
   position: absolute;
   height: 300px;
@@ -272,9 +234,11 @@
 .evecard:hover .evecard-img {
   transform: scale(1.05) rotate(1deg);
 }
+
 .evecard:hover .evecard-bar {
   width: 70px;
 }
+
 .evecard-textbox {
   position: absolute;
   top: 7%;
@@ -287,12 +251,15 @@
 .evecard-textbox * {
   position: relative;
 }
+
 .evecard-title {
   font-size: 24px;
 }
+
 .evecard-subtitle {
   color: #888;
 }
+
 .evecard-bar {
   left: -2px;
   width: 50px;
@@ -302,6 +269,7 @@
   background-color: #424242;
   transition: width 0.2s ease;
 }
+
 .evecard-description {
   z-index: 10;
   font-size: 15px;
@@ -310,6 +278,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .evecard-tagbox {
   position: absolute;
   bottom: 3%;
@@ -318,6 +287,7 @@
   user-select: none;
   pointer-events: none;
 }
+
 .evecard-tag {
   display: inline-block;
   background: #e0e0e0;
@@ -332,51 +302,45 @@
   transition: color 0.2s;
 }
 
-@media only screen and (max-width: 768px) {
-  .evecard-img {
-    display: none;
-  }
-  .evecard-textbox {
-    margin-left: 30px;
-    display: block;
-    position: relative;
-    margin-top: 10px;
-    left: 0;
-    width: calc(100% - 30px);
-  }
-}
+
 
 .photo-container {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: #f0f8ff;
+  background-color: #8FD7ED;
   padding: 4vw;
 
   width: 100%;
 }
+
 .photo-container #pho-title {
   font-size: 4vmin;
   text-align: center;
   color: var(--title-color);
 }
+
 .pho-container {
   max-width: 1224px;
   width: 90%;
   margin: auto;
   padding: 40px 0;
 }
+
 .pho-title {
   margin-bottom: 2rem;
 }
+
 .photo-gallery {
   display: flex;
   gap: 20px;
 }
+
 .photo-gallery .pho-column {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .photo img {
   width: 100%;
   height: 100%;
@@ -384,13 +348,9 @@
 
   object-fit: cover;
 }
-@media (max-width: 768px) {
-  .photo-gallery {
-    flex-direction: column;
-  }
-}
+
 .recruiters-div {
-  background-color: #f0f8ff;
+  background-color: #bad8f1;
 
   width: 100%;
   position: relative;
@@ -401,12 +361,14 @@
   text-align: center;
   z-index: 10;
 }
+
 .recruiters-div h1 {
   margin-top: 5vh;
   font-size: 4vmin;
   text-align: center;
   color: var(--title-color);
 }
+
 .moving-div {
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -415,32 +377,123 @@
   overflow: hidden;
   width: 60%;
 }
+
 .moving-div .move {
   display: inline-block;
   animation-name: mobe;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 .moving-div .move img {
   margin: 0 1vw;
-  height: 2vw;
+  height: 4vw;
 }
-@media (max-width: 768px) {
-  .moving-div .move img {
-    margin: 0 1vw;
-    height: 3vw;
-  }
-  .moving-div {
-    width: 80%;
-  }
-}
+
 
 @keyframes mobe {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
+}
+
+
+
+@media (max-width: 450px) {
+  #programmes h1#prog-title {
+    font-size: 8vmin;
+  }
+
+  #programmes, #up-container {
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+  }
+
+  .photo-container #pho-title {
+    font-size: 8vmin;
+  }
+  #upcoming h1#eve-title {
+    font-size: 8vmin;
+  }
+
+
+  .home-btn a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 13px 13px;
+    font-weight: 800;
+    border-radius: 5px;
+    color: var(--title-color);
+  }
+}
+
+
+
+@media (max-width: 1210px) {
+  #programmes .programmes-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+@media (max-width: 662px) {
+  #programmes .programmes-box {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 30px 0;
+  }
+
+  #programmes h1#prog-title {
+    font-size: 6vmin;
+  }
+
+  #programmes h1#prog-title {
+    font-size: 6vmin;
+  }
+
+  #up-container h1#eve-title {
+    font-size: 6vmin;
+  }
+
+  .photo-container #pho-title {
+    font-size: 6vmin;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .evecard-img {
+    display: none;
+  }
+  .homeimageslider .swiper-pagination-bullet {
+    visibility: visible;
+  }
+  .evecard-textbox {
+    margin-left: 30px;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    left: 0;
+    width: calc(100% - 30px);
+  }
+
+  .moving-div .move img {
+    margin: 0 1vw;
+    height: 3vw;
+  }
+
+  .moving-div {
+    width: 80%;
+  }
+
+  .photo-gallery {
+    flex-direction: column;
+  }
+
 }
