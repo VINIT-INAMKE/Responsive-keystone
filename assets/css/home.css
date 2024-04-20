@@ -125,7 +125,7 @@
 #programmes {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: #8FD7ED;
+  background-color: #8fd7ed;
 
   padding: 3.5rem;
 }
@@ -172,8 +172,6 @@
   margin-top: 20px;
   margin-left: 15%;
 }
-
-
 
 #up-container {
   margin-top: 2vw;
@@ -302,12 +300,10 @@
   transition: color 0.2s;
 }
 
-
-
 .photo-container {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: #8FD7ED;
+  background-color: #8fd7ed;
   padding: 4vw;
 
   width: 100%;
@@ -381,7 +377,7 @@
 .moving-div .move {
   display: inline-block;
   animation-name: mobe;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -390,7 +386,6 @@
   margin: 0 1vw;
   height: 4vw;
 }
-
 
 @keyframes mobe {
   0% {
@@ -402,14 +397,13 @@
   }
 }
 
-
-
 @media (max-width: 450px) {
   #programmes h1#prog-title {
     font-size: 8vmin;
   }
 
-  #programmes, #up-container {
+  #programmes,
+  #up-container {
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -421,7 +415,6 @@
     font-size: 8vmin;
   }
 
-
   .home-btn a {
     text-decoration: none;
     font-size: 0.8rem;
@@ -432,15 +425,11 @@
   }
 }
 
-
-
 @media (max-width: 1210px) {
   #programmes .programmes-box {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-
 
 @media (max-width: 662px) {
   #programmes .programmes-box {
@@ -464,8 +453,6 @@
     font-size: 6vmin;
   }
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .evecard-img {
@@ -495,5 +482,4 @@
   .photo-gallery {
     flex-direction: column;
   }
-
 }
