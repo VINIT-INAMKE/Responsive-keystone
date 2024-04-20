@@ -89,7 +89,9 @@ html::-webkit-scrollbar-thumb {
 ul {
   list-style: none;
 }
-
+ul.stclubs li {
+  text-indent: 40px;
+}
 a {
   text-decoration: none;
 }
@@ -798,9 +800,11 @@ a {
   align-items: center;
   appearance: none;
   background-color: var(--body-color);
-  background-image: linear-gradient(1deg,
-      var(--first-color),
-      var(--color-mine) 99%);
+  background-image: linear-gradient(
+    1deg,
+    var(--first-color),
+    var(--color-mine) 99%
+  );
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
@@ -919,6 +923,11 @@ a {
   padding-bottom: 25px;
   text-align: justify;
 }
+.assrow .asscontentWrapper ul {
+  line-height: 25px;
+  padding-bottom: 25px;
+  text-align: justify;
+}
 
 .assrow .asscontentWrapper li {
   padding-bottom: 0.8rem;
@@ -947,6 +956,10 @@ a {
     /* background-image: none; */
     width: 100%;
     height: 50vh;
+  }
+  .assrow .assimgWrapper img {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -1259,13 +1272,11 @@ a {
   filter: blur(20px);
   pointer-events: none;
   user-select: none;
-
 }
 .main#blur.active {
   filter: blur(20px);
   pointer-events: none;
   user-select: none;
-
 }
 
 #somansir-popup,
@@ -1313,10 +1324,10 @@ a {
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
-  top: 50%
+  top: 50%;
 }
 
-#admi-popup{
+#admi-popup {
   position: fixed;
   top: 40%;
   left: 50%;
@@ -1345,11 +1356,11 @@ a {
   display: none;
 }
 
-#admi-popup.active{
+#admi-popup.active {
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
-  top: 50%
+  top: 50%;
 }
 
 /* #somansir-popup .managementbuttondiv,
@@ -1934,5 +1945,62 @@ a {
 
   .brochureBox {
     padding: 20px;
+  }
+}
+
+.photo-container {
+  margin-bottom: 2vw;
+
+  width: 100%;
+}
+
+.photo-container #pho-title {
+  font-size: 4vmin;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.pho-container {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.pho-title {
+  margin-bottom: 2rem;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.photo-gallery .pho-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
+  object-fit: cover;
+}
+@media (max-width: 662px) {
+  .photo-container #pho-title {
+    font-size: 6vmin;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .photo-gallery {
+    flex-direction: column;
+  }
+}
+@media (max-width: 450px) {
+  .photo-container #pho-title {
+    font-size: 8vmin;
   }
 }
