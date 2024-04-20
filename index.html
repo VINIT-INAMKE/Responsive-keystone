@@ -1,426 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-  <!--=============== REMIXICONS ===============-->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link
+      rel="icon"
+      href="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <title>Keystone School of Engineering</title>
+  </head>
 
-  <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="./assets/css/home.css" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link rel="stylesheet" href="./assets/css/header.css" />
-  <link rel="icon"
-    href="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
-  <title>Keystone School of Engineering</title>
-</head>
-
-<body>
-  <!--=============== HEADER ===============-->
-  .<div class="keyper-container" id="blur">
-    <header class="header">
-      <oute-header></oute-header>
-    </header>
-    <div class="main">
-      <section class="homeimageslider swiper mySwiper">
-        <div class="homewrapper swiper-wrapper">
-          <div class="homeslide swiper-slide">
-            <img src="./images/herokeyst.jpg" alt="" class="homeimage" />
-            <div class="image-data">
-              <h2 class="text">Keystone School Of Engineering</h2>
-              <p>
-                “Students without Teachers is like a ship lost in the horizon.”
-              </p>
-              <div class="home-btn">
-                <a class="blue" href="./about/collegeprofile.html">About Us</a>
-                <a class="yellow" href="#programmes">Explore Programs</a>
-              </div>
-            </div>
-          </div>
-          <div class="homeslide swiper-slide">
-            <img
-              src="https://media.discordapp.net/attachments/851837926496796694/1228761727244566528/aids.jpg?ex=662d3889&is=661ac389&hm=2cd870cf9421fc11f99935a8ee4c1c5794fcbbe8745e2443020904b2f32101ba&=&format=webp&width=1293&height=676"
-              alt="" class="homeimage" />
-            <div class="image-data">
-              <h2 class="text">Keystone School Of Engineering</h2>
-              <p>
-                “Students without Teachers is like a ship lost in the horizon.”
-              </p>
-              <div class="home-btn">
-                <a class="blue" href="./about/collegeprofile.html">About Us</a>
-                <a class="yellow" href="#programmes">Explore Programs</a>
-              </div>
-            </div>
-          </div>
-          <div class="homeslide swiper-slide">
-            <img
-              src="https://cdn.discordapp.com/attachments/851837926496796694/1228761728410456104/entc.jpg?ex=662d3889&is=661ac389&hm=526483363055cf9603a601b34e199c018049a9afd0ee147a1284c01ba0b83838&"
-              alt="" class="homeimage" />
-            <div class="image-data">
-              <h2 class="text">Keystone School Of Engineering</h2>
-              <p>
-                “Students without Teachers is like a ship lost in the horizon.”
-              </p>
-              <div class="home-btn">
-                <a class="blue" href="./about/collegeprofile.html">About Us</a>
-                <a class="yellow" href="#programmes">Explore Programs</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-pagination"></div>
-      </section>
-
-      <section id="programmes">
-        <h1 id="prog-title">Programs Offered</h1>
-        <div class="programmes-box">
-          <div class="programme">
-            <a href="./Comp/about.html"> <img src="./images/compdept.png" alt="" style="width: 100%;
-            height: 100%; object-fit: cover; border-radius: 20px;"> Computer Engineering</a>
-          </div>
-          <div class="programme">
-
-            <a href="./Mechanical/about.html"> <img src="./images/mech.jpg" alt="" style="width: 100%;
-            height: 100%; object-fit: cover; border-radius: 20px;"> Mechanical Engineering</a>
-          </div>
-          <div class="programme">
-            <a href="./ENTC/about.html"> <img src="./images/entc.jpg" alt="" style="width: 100%;
-            height: 100%; object-fit: cover; border-radius: 20px;margin-bottom: 33px;"> E&TC Engineering</a>
-          </div>
-          <div class="programme">
-            <a href="./AIDS/about.html"> <img src="./images/aids.jpg" alt="" style="width: 100%;
-            height: 100%; object-fit: cover; border-radius: 20px;margin-bottom: 30px;"> AI & DS Engineering</a>
-          </div>
-        </div>
-      </section>
-      <section id="programmes" style="background-color: #BAD8F1;">
-        <h1 id="prog-title">Admission Enquiry</h1>
-        <div style="display: flex;align-items: center;justify-content: center; margin-top: 30px;">
-
-          <button class="adm-button" onclick="admform()" style="font-size: var(--title-font-size);font-weight: 700;">
-            Click here for Enquiry Form
-          </button>
-
-        </div>
-      </section>
-
-      <section id="up-container">
-        <h1 id="eve-title">Upcoming Events</h1>
-        <div class="swiper mySwiper2 evesw">
-          <div class="swiper-wrapper upcoming-container">
-            <article class="evecard__article swiper-slide">
-              <div class="evecard">
-                <div class="evecard-innerbox">
-                  <img class="evecard-img" src="https://picsum.photos/800/600?image=1041" />
-                  <div class="evecard-textbox">
-                    <div class="evecard-title">Event 1</div>
-                    <div class="evecard-subtitle">Date</div>
-                    <div class="evecard-bar"></div>
-                    <div class="evecard-description">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <article class="evecard__article swiper-slide">
-              <div class="evecard">
-                <div class="evecard-innerbox">
-                  <img class="evecard-img" src="https://picsum.photos/800/600?image=1041" />
-                  <div class="evecard-textbox">
-                    <div class="evecard-title">Event 2</div>
-                    <div class="evecard-subtitle">Date</div>
-                    <div class="evecard-bar"></div>
-                    <div class="evecard-description">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <article class="evecard__article swiper-slide">
-              <div class="evecard">
-                <div class="evecard-innerbox">
-                  <img class="evecard-img" src="https://picsum.photos/800/600?image=1041" />
-                  <div class="evecard-textbox">
-                    <div class="evecard-title">Event 3</div>
-                    <div class="evecard-subtitle">Date</div>
-                    <div class="evecard-bar"></div>
-                    <div class="evecard-description">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-
-      <section class="photo-container">
-        <h1 id="pho-title">Gallery</h1>
-        <div class="pho-container">
-          <div class="photo-gallery">
-            <div class="pho-column">
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595788443226203/72acbf35-9c2a-481d-bf45-395cb2e50d78_1.jpg?ex=6633e4a3&is=66216fa3&hm=c42cfd41eff3af1299447b8647e7e0facd5a5f589da3fe7ef59c973c1f88eb96&=&format=webp&width=901&height=676"
-                  alt="" onclick="openModal(src)" />
-              </div>
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595788799873105/72acbf35-9c2a-481d-bf45-395cb2e50d78.jpg?ex=6633e4a3&is=66216fa3&hm=3d5e3d4edd178a4cc8034e3538e6e35691e2f0dafb40b743a0b93b47ff18488a&=&format=webp&width=901&height=676"
-                  alt="" onclick="openModal('image1.jpg')" />
-              </div>
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595789101994074/1666247472553.jpg?ex=6633e4a3&is=66216fa3&hm=cdfd3e0c08856149a746c4f567beef7c62e42d22535f53481847edb4a491b629&=&format=webp&width=901&height=676"
-                  alt="" />
-              </div>
-            </div>
-            <div class="photo">
+  <body>
+    <!--=============== HEADER ===============-->
+    .
+    <div class="keyper-container" id="blur">
+      <header class="header">
+        <oute-header></oute-header>
+      </header>
+      <div class="main">
+        <section class="homeimageslider swiper mySwiper">
+          <div class="homewrapper swiper-wrapper">
+            <div class="homeslide swiper-slide">
               <img
-                src="https://media.discordapp.net/attachments/851837926496796694/1230595791605731328/manav_training.jpg?ex=6633e4a4&is=66216fa4&hm=85927c82886b8f2f4658124c979edcbff136e68b1dd09c7a7d32c6f7f56185ea&=&format=webp&width=901&height=676"
-                alt="" />
-            </div>
-            <div class="pho-column">
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595789433081946/1675310112069.jpg?ex=6633e4a3&is=66216fa3&hm=4a1b00581cdfe967521bffe26acfad02781512fd27c40aafb531369e0ea1aa9a&=&format=webp&width=901&height=676"
-                  alt="" />
-              </div>
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595789886197863/1675310117297.jpg?ex=6633e4a3&is=66216fa3&hm=348cd2c113598d9465fbc1b60ed6bd5636e4f2079ded345c84a91523fcfb7216&=&format=webp&width=901&height=676"
-                  alt="" />
-              </div>
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595790335119380/1675310119112.jpg?ex=6633e4a3&is=66216fa3&hm=92ae153698eec59ace167bc9c5c146b9bc0ac0df3a7cc27a4d1d71af47607b71&=&format=webp&width=901&height=676"
-                  alt="" />
+                src="https://dl.dropboxusercontent.com/scl/fi/eyo2elfv2cwvoqdyiv1ba/herokeyst.jpeg?rlkey=8k5cxq7r6midujazgymxxa2n5&st=bwf7dtln&dl=0"
+                alt=""
+                class="homeimage"
+              />
+              <div class="image-data">
+                <h2 class="text">Keystone School Of Engineering</h2>
+                <p>
+                  “Students without Teachers is like a ship lost in the
+                  horizon.”
+                </p>
+                <div class="home-btn">
+                  <a class="blue" href="./about/collegeprofile.html"
+                    >About Us</a
+                  >
+                  <a class="yellow" href="#programmes">Explore Programs</a>
+                </div>
               </div>
             </div>
-            <div class="pho-column">
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595790767001611/1679297715720.jpg?ex=6633e4a3&is=66216fa3&hm=f5c561d896111b155aaf3e5744803838014948b9114db3b5f0cfc5f3a8e79741&=&format=webp&width=901&height=676"
-                  alt="" />
+            <div class="homeslide swiper-slide">
+              <img
+                src="https://dl.dropboxusercontent.com/scl/fi/eyo2elfv2cwvoqdyiv1ba/herokeyst.jpeg?rlkey=8k5cxq7r6midujazgymxxa2n5&st=bwf7dtln&dl=0"
+                alt=""
+                class="homeimage"
+              />
+              <div class="image-data">
+                <h2 class="text">Keystone School Of Engineering</h2>
+                <p>
+                  “Students without Teachers is like a ship lost in the
+                  horizon.”
+                </p>
+                <div class="home-btn">
+                  <a class="blue" href="./about/collegeprofile.html"
+                    >About Us</a
+                  >
+                  <a class="yellow" href="#programmes">Explore Programs</a>
+                </div>
               </div>
-              <div class="photo">
-                <img
-                  src="https://media.discordapp.net/attachments/851837926496796694/1230595791178174645/f311a4f5-623a-4f0d-90ec-ccc755cf62f8.jpg?ex=6633e4a3&is=66216fa3&hm=0b20c19a6cbf9d5ed4e63e544e95d4ab3b27c739e2227201d4cb4af6790ce7c1&=&format=webp&width=507&height=676"
-                  alt="" />
+            </div>
+            <div class="homeslide swiper-slide">
+              <img
+                src="https://dl.dropboxusercontent.com/scl/fi/eyo2elfv2cwvoqdyiv1ba/herokeyst.jpeg?rlkey=8k5cxq7r6midujazgymxxa2n5&st=bwf7dtln&dl=0"
+                alt=""
+                class="homeimage"
+              />
+              <div class="image-data">
+                <h2 class="text">Keystone School Of Engineering</h2>
+                <p>
+                  “Students without Teachers is like a ship lost in the
+                  horizon.”
+                </p>
+                <div class="home-btn">
+                  <a class="blue" href="./about/collegeprofile.html"
+                    >About Us</a
+                  >
+                  <a class="yellow" href="#programmes">Explore Programs</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <div class="recruiters-div">
-        <h1 class="recruiters-title">Our Recruiters</h1>
-        <div class="moving-div">
-          <div class="move">
-            <img src="./companies/atos-syntel-vector-logo.png" alt="" />
-            <img src="./companies/Capgemini.svg" alt="" />
-            <img src="./companies/concentrix.png" alt="" />
-            <img src="./companies/eagle.jpeg" alt="" />
-            <img src="./companies/fuji-electric.png" alt="" />
-            <img src="./companies/Fujitsu-Logo.svg" alt="" />
-            <img src="./companies/Hexaware_new_logo.png" alt="" />
-            <img src="./companies/InfoSys.svg" alt="" />
-            <img src="./companies/intervalve.jpg" alt="" />
-            <img src="./companies/isource.png" alt="" />
-            <img src="./companies/KPIT.svg" alt="" />
-            <img src="./companies/mobiquity.png" alt="" />
-            <img src="./companies/ntt.svg" alt="" />
-            <img src="./companies/qualis.png" alt="" />
-            <img src="./companies/tcs.png" alt="" />
-            <img src="./companies/Techmahindra.svg" alt="" />
-            <img src="./companies/wipro.svg" alt="" />
-            <img src="./companies/Yash-Technologies.svg" alt="" />
-            <img src="./companies/ZENSAR.svg" alt="" />
+
+          <div class="swiper-pagination"></div>
+        </section>
+
+        <section id="programmes">
+          <h1 id="prog-title">Programs Offered</h1>
+          <div class="programmes-box">
+            <div class="programme">
+              <a href="./Comp/about.html">
+                <img
+                  src="./images/compdept.png"
+                  alt=""
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                  "
+                />
+                Computer Engineering</a
+              >
+            </div>
+            <div class="programme">
+              <a href="./Mechanical/about.html">
+                <img
+                  src="./images/mech.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                  "
+                />
+                Mechanical Engineering</a
+              >
+            </div>
+            <div class="programme">
+              <a href="./ENTC/about.html">
+                <img
+                  src="./images/entc.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                    margin-bottom: 33px;
+                  "
+                />
+                E&TC Engineering</a
+              >
+            </div>
+            <div class="programme">
+              <a href="./AIDS/about.html">
+                <img
+                  src="./images/aids.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                    margin-bottom: 30px;
+                  "
+                />
+                AI & DS Engineering</a
+              >
+            </div>
           </div>
-          <div class="move">
-            <img src="./companies/atos-syntel-vector-logo.png" alt="" />
-            <img src="./companies/Capgemini.svg" alt="" />
-            <img src="./companies/concentrix.png" alt="" />
-            <img src="./companies/eagle.jpeg" alt="" />
-            <img src="./companies/fuji-electric.png" alt="" />
-            <img src="./companies/Fujitsu-Logo.svg" alt="" />
-            <img src="./companies/Hexaware_new_logo.png" alt="" />
-            <img src="./companies/InfoSys.svg" alt="" />
-            <img src="./companies/intervalve.jpg" alt="" />
-            <img src="./companies/isource.png" alt="" />
-            <img src="./companies/KPIT.svg" alt="" />
-            <img src="./companies/mobiquity.png" alt="" />
-            <img src="./companies/ntt.svg" alt="" />
-            <img src="./companies/qualis.png" alt="" />
-            <img src="./companies/tcs.png" alt="" />
-            <img src="./companies/Techmahindra.svg" alt="" />
-            <img src="./companies/wipro.svg" alt="" />
-            <img src="./companies/Yash-Technologies.svg" alt="" />
-            <img src="./companies/ZENSAR.svg" alt="" />
+        </section>
+        <section id="programmes" style="background-color: #bad8f1">
+          <h1 id="prog-title">Admission Enquiry</h1>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-top: 30px;
+            "
+          >
+            <button
+              class="adm-button"
+              onclick="admform()"
+              style="font-size: var(--title-font-size); font-weight: 700"
+            >
+              Click here for Enquiry Form
+            </button>
+          </div>
+        </section>
+
+        <section id="up-container">
+          <h1 id="eve-title">Upcoming Events</h1>
+          <div class="swiper mySwiper2 evesw">
+            <div class="swiper-wrapper upcoming-container">
+              <article class="evecard__article swiper-slide">
+                <div class="evecard">
+                  <div class="evecard-innerbox">
+                    <img
+                      class="evecard-img"
+                      src="https://picsum.photos/800/600?image=1041"
+                    />
+                    <div class="evecard-textbox">
+                      <div class="evecard-title">Event 1</div>
+                      <div class="evecard-subtitle">Date</div>
+                      <div class="evecard-bar"></div>
+                      <div class="evecard-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="evecard__article swiper-slide">
+                <div class="evecard">
+                  <div class="evecard-innerbox">
+                    <img
+                      class="evecard-img"
+                      src="https://picsum.photos/800/600?image=1041"
+                    />
+                    <div class="evecard-textbox">
+                      <div class="evecard-title">Event 2</div>
+                      <div class="evecard-subtitle">Date</div>
+                      <div class="evecard-bar"></div>
+                      <div class="evecard-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="evecard__article swiper-slide">
+                <div class="evecard">
+                  <div class="evecard-innerbox">
+                    <img
+                      class="evecard-img"
+                      src="https://picsum.photos/800/600?image=1041"
+                    />
+                    <div class="evecard-textbox">
+                      <div class="evecard-title">Event 3</div>
+                      <div class="evecard-subtitle">Date</div>
+                      <div class="evecard-bar"></div>
+                      <div class="evecard-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="photo-container">
+          <h1 id="pho-title">Gallery</h1>
+          <div class="pho-container">
+            <div class="photo-gallery">
+              <div class="pho-column">
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595788443226203/72acbf35-9c2a-481d-bf45-395cb2e50d78_1.jpg?ex=6633e4a3&is=66216fa3&hm=c42cfd41eff3af1299447b8647e7e0facd5a5f589da3fe7ef59c973c1f88eb96&=&format=webp&width=901&height=676"
+                    alt=""
+                    onclick="openModal(src)"
+                  />
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595788799873105/72acbf35-9c2a-481d-bf45-395cb2e50d78.jpg?ex=6633e4a3&is=66216fa3&hm=3d5e3d4edd178a4cc8034e3538e6e35691e2f0dafb40b743a0b93b47ff18488a&=&format=webp&width=901&height=676"
+                    alt=""
+                    onclick="openModal('image1.jpg')"
+                  />
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595789101994074/1666247472553.jpg?ex=6633e4a3&is=66216fa3&hm=cdfd3e0c08856149a746c4f567beef7c62e42d22535f53481847edb4a491b629&=&format=webp&width=901&height=676"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="photo">
+                <img
+                  src="https://media.discordapp.net/attachments/851837926496796694/1230595791605731328/manav_training.jpg?ex=6633e4a4&is=66216fa4&hm=85927c82886b8f2f4658124c979edcbff136e68b1dd09c7a7d32c6f7f56185ea&=&format=webp&width=901&height=676"
+                  alt=""
+                />
+              </div>
+              <div class="pho-column">
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595789433081946/1675310112069.jpg?ex=6633e4a3&is=66216fa3&hm=4a1b00581cdfe967521bffe26acfad02781512fd27c40aafb531369e0ea1aa9a&=&format=webp&width=901&height=676"
+                    alt=""
+                  />
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595789886197863/1675310117297.jpg?ex=6633e4a3&is=66216fa3&hm=348cd2c113598d9465fbc1b60ed6bd5636e4f2079ded345c84a91523fcfb7216&=&format=webp&width=901&height=676"
+                    alt=""
+                  />
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595790335119380/1675310119112.jpg?ex=6633e4a3&is=66216fa3&hm=92ae153698eec59ace167bc9c5c146b9bc0ac0df3a7cc27a4d1d71af47607b71&=&format=webp&width=901&height=676"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pho-column">
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595790767001611/1679297715720.jpg?ex=6633e4a3&is=66216fa3&hm=f5c561d896111b155aaf3e5744803838014948b9114db3b5f0cfc5f3a8e79741&=&format=webp&width=901&height=676"
+                    alt=""
+                  />
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://media.discordapp.net/attachments/851837926496796694/1230595791178174645/f311a4f5-623a-4f0d-90ec-ccc755cf62f8.jpg?ex=6633e4a3&is=66216fa3&hm=0b20c19a6cbf9d5ed4e63e544e95d4ab3b27c739e2227201d4cb4af6790ce7c1&=&format=webp&width=507&height=676"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="recruiters-div">
+          <h1 class="recruiters-title">Our Recruiters</h1>
+          <div class="moving-div">
+            <div class="move">
+              <img src="./companies/atos-syntel-vector-logo.png" alt="" />
+              <img src="./companies/Capgemini.svg" alt="" />
+              <img src="./companies/concentrix.png" alt="" />
+              <img src="./companies/eagle.jpeg" alt="" />
+              <img src="./companies/fuji-electric.png" alt="" />
+              <img src="./companies/Fujitsu-Logo.svg" alt="" />
+              <img src="./companies/Hexaware_new_logo.png" alt="" />
+              <img src="./companies/InfoSys.svg" alt="" />
+              <img src="./companies/intervalve.jpg" alt="" />
+              <img src="./companies/isource.png" alt="" />
+              <img src="./companies/KPIT.svg" alt="" />
+              <img src="./companies/mobiquity.png" alt="" />
+              <img src="./companies/ntt.svg" alt="" />
+              <img src="./companies/qualis.png" alt="" />
+              <img src="./companies/tcs.png" alt="" />
+              <img src="./companies/Techmahindra.svg" alt="" />
+              <img src="./companies/wipro.svg" alt="" />
+              <img src="./companies/Yash-Technologies.svg" alt="" />
+              <img src="./companies/ZENSAR.svg" alt="" />
+            </div>
+            <div class="move">
+              <img src="./companies/atos-syntel-vector-logo.png" alt="" />
+              <img src="./companies/Capgemini.svg" alt="" />
+              <img src="./companies/concentrix.png" alt="" />
+              <img src="./companies/eagle.jpeg" alt="" />
+              <img src="./companies/fuji-electric.png" alt="" />
+              <img src="./companies/Fujitsu-Logo.svg" alt="" />
+              <img src="./companies/Hexaware_new_logo.png" alt="" />
+              <img src="./companies/InfoSys.svg" alt="" />
+              <img src="./companies/intervalve.jpg" alt="" />
+              <img src="./companies/isource.png" alt="" />
+              <img src="./companies/KPIT.svg" alt="" />
+              <img src="./companies/mobiquity.png" alt="" />
+              <img src="./companies/ntt.svg" alt="" />
+              <img src="./companies/qualis.png" alt="" />
+              <img src="./companies/tcs.png" alt="" />
+              <img src="./companies/Techmahindra.svg" alt="" />
+              <img src="./companies/wipro.svg" alt="" />
+              <img src="./companies/Yash-Technologies.svg" alt="" />
+              <img src="./companies/ZENSAR.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
+
+      <oute-footer></oute-footer>
     </div>
 
-    <oute-footer></oute-footer>
-  </div>
-
-  <div id="admi-popup">
-    <div class="hodcontainer">
-      <div class="key-hodrow">
-
-        <div class="keypersonsButton2" style="margin-top: 10px;">
-        </div>
-        <div class="hodcontentWrapper">
-          <div class="hodcontent">
-            <!-- <span class="hodtextWrapper" style="font-size: var(--title-font-size)">
+    <div id="admi-popup">
+      <div class="hodcontainer">
+        <div class="key-hodrow">
+          <div class="keypersonsButton2" style="margin-top: 10px"></div>
+          <div class="hodcontentWrapper">
+            <div class="hodcontent">
+              <!-- <span class="hodtextWrapper" style="font-size: var(--title-font-size)">
               <span class="dash" style="width: 40px"></span>Yashodhan Soman
               Sir
             </span> -->
 
-            <section class="adm-registration-section">
-              <div class="managementbuttondiv" style="width:100%; display:flex;justify-content: end;">
-                <button onclick="admform()" style="background-color: #F2F6FD; box-shadow: none; border-radius: 50%;"><i
-                    class="ri-close-circle-fill" style="font-size: 1.5rem; "></i></button>
-              </div>
-              <h2 class="adm-h2">Admission Enquiry</h2>
-              <form id="adm-registration-form" class="adm-form">
-                <div class="adm-form-group">
-                  <label for="adm-candidate-name" class="adm-label">Candidate Name *</label>
-                  <input type="text" id="adm-candidate-name" name="candidate-name" required class="adm-input" />
+              <section class="adm-registration-section">
+                <div
+                  class="managementbuttondiv"
+                  style="width: 100%; display: flex; justify-content: end"
+                >
+                  <button
+                    onclick="admform()"
+                    style="
+                      background-color: #f2f6fd;
+                      box-shadow: none;
+                      border-radius: 50%;
+                    "
+                  >
+                    <i
+                      class="ri-close-circle-fill"
+                      style="font-size: 1.5rem"
+                    ></i>
+                  </button>
                 </div>
-                <div class="adm-form-group">
-                  <label for="adm-candidate-email" class="adm-label">Candidate Email *</label>
-                  <input type="email" id="adm-candidate-email" name="candidate-email" required class="adm-input" />
-                </div>
-                <div class="adm-form-group">
-                  <label for="adm-contact-no" class="adm-label">Contact No.* </label>
-                  <input type="text" id="adm-contact-no" name="contact-no" required class="adm-input" />
-                </div>
+                <h2 class="adm-h2">Admission Enquiry</h2>
+                <form id="adm-registration-form" class="adm-form">
+                  <div class="adm-form-group">
+                    <label for="adm-candidate-name" class="adm-label"
+                      >Candidate Name *</label
+                    >
+                    <input
+                      type="text"
+                      id="adm-candidate-name"
+                      name="candidate-name"
+                      required
+                      class="adm-input"
+                    />
+                  </div>
+                  <div class="adm-form-group">
+                    <label for="adm-candidate-email" class="adm-label"
+                      >Candidate Email *</label
+                    >
+                    <input
+                      type="email"
+                      id="adm-candidate-email"
+                      name="candidate-email"
+                      required
+                      class="adm-input"
+                    />
+                  </div>
+                  <div class="adm-form-group">
+                    <label for="adm-contact-no" class="adm-label"
+                      >Contact No.*
+                    </label>
+                    <input
+                      type="text"
+                      id="adm-contact-no"
+                      name="contact-no"
+                      required
+                      class="adm-input"
+                    />
+                  </div>
 
-                <div class="adm-form-group">
-                  <label for="adm-admission-year" class="adm-label">Admission Year</label>
-                  <select id="adm-admission-year" name="admission-year" class="adm-select">
-                    <option value="" selected>Select your Year</option>
-                    <option value="first-year">
-                      Bachelor of Engineering (First Year)
-                    </option>
-                    <option value="direct-second-year">
-                      Bachelor of Engineering (Direct Second Year)
-                    </option>
-                  </select>
-                </div>
-                <div id="additional-fields" class="adm-form-group">
-                  <label for="computer_engineering">
-                    <input type="checkbox" name="computer_engineering" value="Computer Engineering"
-                      class="adm-input">Computer
-                    Engineering
-                  </label>
-                  <label for="entc_engineering">
-                    <input type="checkbox" name="entc_engineering"
-                      value="Electronics and Telecommunications Engineering" class="adm-input">Electronics and
-                    Telecommunications Engineering
-                  </label>
-                  <label for="mech_engineering">
-                    <input type="checkbox" name="mech_engineering" value="Mechanical Engineering"
-                      class="adm-input">Mechanical Engineering
-                  </label>
-                  <label for="aids_engineering">
-                    <input type="checkbox" name="aids_engineering" value="AI & DS Engineering" class="adm-input">AI & DS
-                    Engineering
-                  </label>
-                </div>
+                  <div class="adm-form-group">
+                    <label for="adm-admission-year" class="adm-label"
+                      >Admission Year</label
+                    >
+                    <select
+                      id="adm-admission-year"
+                      name="admission-year"
+                      class="adm-select"
+                    >
+                      <option value="" selected>Select your Year</option>
+                      <option value="first-year">
+                        Bachelor of Engineering (First Year)
+                      </option>
+                      <option value="direct-second-year">
+                        Bachelor of Engineering (Direct Second Year)
+                      </option>
+                    </select>
+                  </div>
+                  <div id="additional-fields" class="adm-form-group">
+                    <label for="computer_engineering">
+                      <input
+                        type="checkbox"
+                        name="computer_engineering"
+                        value="Computer Engineering"
+                        class="adm-input"
+                      />Computer Engineering
+                    </label>
+                    <label for="entc_engineering">
+                      <input
+                        type="checkbox"
+                        name="entc_engineering"
+                        value="Electronics and Telecommunications Engineering"
+                        class="adm-input"
+                      />Electronics and Telecommunications Engineering
+                    </label>
+                    <label for="mech_engineering">
+                      <input
+                        type="checkbox"
+                        name="mech_engineering"
+                        value="Mechanical Engineering"
+                        class="adm-input"
+                      />Mechanical Engineering
+                    </label>
+                    <label for="aids_engineering">
+                      <input
+                        type="checkbox"
+                        name="aids_engineering"
+                        value="AI & DS Engineering"
+                        class="adm-input"
+                      />AI & DS Engineering
+                    </label>
+                  </div>
 
-
-                <div id="adm-cont">
-                  <button type="submit" class="adm-button">Submit</button>
-                </div>
-              </form>
-            </section>
+                  <div id="adm-cont">
+                    <button type="submit" class="adm-button">Submit</button>
+                  </div>
+                </form>
+              </section>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
-  </div>
-  <script src="./assets/js/components.js"></script>
-  <!-- Swiper JS -->
-  <script src="./assets/js/swiper-bundle.min.js"></script>
-  <!--=============== MAIN JS ===============-->
-  <script type="text/javascript">
-    function admform() {
-      var blur = document.getElementById("blur");
-      blur.classList.toggle("active");
-      var somansirpopup = document.getElementById("admi-popup");
-      somansirpopup.classList.toggle("active");
-    }
-  </script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      effect: "fade",
-      loop: true,
-      speed: 1800,
+    <script src="./assets/js/components.js"></script>
+    <!-- Swiper JS -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script type="text/javascript">
+      function admform() {
+        var blur = document.getElementById("blur");
+        blur.classList.toggle("active");
+        var somansirpopup = document.getElementById("admi-popup");
+        somansirpopup.classList.toggle("active");
+      }
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        speed: 1800,
 
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-    var swiper2 = new Swiper(".mySwiper2", {
-      spaceBetween: 30,
-      grabCursor: true,
-      effect: "creative",
-      creativeEffect: {
-        prev: {
-          // shadow: true,
-          translate: ["-20%", 0, -1],
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
         },
-        next: {
-          translate: ["100%", 0, 0],
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-      },
-      loop: true,
-      speed: 1000,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      // autoplay: {
-      //   delay: 2500,
-      //   disableOnInteraction: false,
-      // },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 30,
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+          prev: {
+            // shadow: true,
+            translate: ["-20%", 0, -1],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+        },
+        loop: true,
+        speed: 1000,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
 
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
 
-    document.querySelectorAll(".evecard-description").forEach(function (box) {
-      $clamp(box, { clamp: 6 });
-    });
-  </script>
+      document.querySelectorAll(".evecard-description").forEach(function (box) {
+        $clamp(box, { clamp: 6 });
+      });
+    </script>
 
-  <script src="./assets/js/main.js"></script>
-</body>
-
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
